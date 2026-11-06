@@ -1,29 +1,26 @@
-import pandas as pd
-
-patients_df = pd.read_csv('Data/invalid/patients.csv')
-encounters_df = pd.read_csv('Data/invalid/encounters.csv')
-
-pd.options.display.max_rows = None
-
 # .isnull().any(axis=1)]
 #is null checks every cell for missing data
 # any(axis=1) returns the row if at least 1 of its cells is null, change the 1 for another value
-def validate_missing_data(df, req_columns):
-    return print(df[df[req_columns].isnull().any(axis=1)])
 
-def validate_duplicate_ids(df, id_column):
-    return print(df[df.duplicated(subset=[id_column], keep=False)])
-
-def validate_encounter_dates(df, start_column, end_column):
-    if not df[end_column].isnull().any():
-        return print(df[df[start_column] > df[end_column]])
-    else:
-        return print(df[df[start_column].isnull().any(axis=1)])
+import pandas as pd
 
 
+def test1():
+    return "test"
 
-# validate_missing_data(patients_df, ['Id', 'BIRTHDATE', 'SSN', 'FIRST', 'LAST'])
-# validate_missing_data(encounters_df, ['Id', 'START', 'PATIENT', 'ORGANIZATION', 'PROVIDER', 'ENCOUNTERCLASS', 'CODE'])
+def validate_missing_data(df: pd.DataFrame, req_columns: list):
+    return df[df[req_columns].isnull().any(axis=1)]
 
-# validate_duplicate_ids(patients_df, 'Id')
-# validate_duplicate_ids(encounters_df, 'Id')
+def validate_duplicate_ids(df: pd.DataFrame, id_column: str):
+    return df[df.duplicated(subset=[id_column], keep=False)]
+
+def validate_encounter_dates(df: pd.DataFrame, start_column: str, end_column: str):
+    #return rows where the end date is before the start AND the ones that
+    return df[(df[end_column].notna()) & (df[start_column] > df[end_column])]
+
+def encounter_ref_invalid_patient_or_org(encounter_df: pd.DataFrame, patient_df: pd.DataFrame, organizations_df: pd.DataFrame):
+    return encounter_df[~encounter_df['PATIENT'].isin(patient_df['Id']) | ~encounter_df['ORGANIZATION'].isin(organizations_df['Id'])]
+
+def conditions_ref_invalid_patient_or_encounter(conditions_df: pd.DataFrame, patient_df: pd.DataFrame, encounter_df: pd.DataFrame):
+    return conditions_df[~conditions_df['PATIENT'].isin(patient_df['Id']) | ~conditions_df['ENCOUNTER'].isin(encounter_df['Id'])]
+
