@@ -1,0 +1,6 @@
+_source_row,START,STOP,PATIENT,ENCOUNTER,SYSTEM,CODE,DESCRIPTION,rejection_reason
+3387,2002-05-09,,,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Missing PATIENT Column
+3388,2002-05-09,,INVALID-PATIENT-002,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Invalid Patient ID
+3389,2002-05-09,,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,,SNOMED-CT,160968000.0,Risk activity involvement (finding),Missing ENCOUNTER Column
+3391,2002-05-09,,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,,Risk activity involvement (finding),Missing CODE Column
+3393,2025-06-15,2025-06-14,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Stop date is before start date

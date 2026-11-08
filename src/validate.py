@@ -12,7 +12,6 @@ def validate_missing_data(df: pd.DataFrame, req_columns: list):
         ),
         axis=1
     )
-
     return invalid_records
 
 def validate_duplicate_ids(df: pd.DataFrame, id_column: str):

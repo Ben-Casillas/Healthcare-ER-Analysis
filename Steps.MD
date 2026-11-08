@@ -4,8 +4,8 @@ Sprint 2 — Data Validation & Quality Checks
 - [x] Write a function that checks whether encounter start and end dates are valid.
 - [x] Write a function that identifies encounters referencing nonexistent patients or organizations.
 - [x] Write a function that checks whether condition records reference valid patients and encounters.
-- [ ] Create a rejection report that records each invalid record and its rejection reason.
-- [ ] Create a summary showing total records checked, valid records, rejected records, and failure percentages.
+- [x] Create a rejection report that records each invalid record and its rejection reason.
+- [x] Create a summary showing total records checked, valid records, rejected records, and failure percentages.
 - [x] Create deliberately corrupted sample records to test your validation functions.
 - [ ] Use pytest to create automated tests for your validation functions.
 
