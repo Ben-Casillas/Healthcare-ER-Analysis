@@ -7,3 +7,5 @@ introduce different formats for same data, dates, gender, ssn, phone
 
 adjust the validate encounter dates so that when its giving the reason, it can specify if the end date is before start
 date or if the values are not dates
+
+make tests that are expected to raise errors other than AssertionError

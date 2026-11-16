@@ -7,7 +7,7 @@ organizations_df = pd.read_csv('./Data/invalid/organizations.csv')
 conditions_df = pd.read_csv('./Data/invalid/conditions.csv')
 
 def test_correct_row_count_patients():
-    assert(len(patients_df) == 118)
+    assert(len(patients_df) == 119)
     
 def test_correct_row_count_encounters():
     assert(len(encounters_df) == 5070)
