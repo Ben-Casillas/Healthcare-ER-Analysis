@@ -1,18 +1,26 @@
+import pandas as pd
 # .isnull().any(axis=1)]
 #is null checks every cell for missing data
 # any(axis=1) returns the row if at least 1 of its cells is null, change the 1 for another value
 
-import pandas as pd
+patients_df = pd.read_csv('Data/invalid/patients.csv')
 
 def validate_missing_data(df: pd.DataFrame, req_columns: list):
-    invalid_records = df[df[req_columns].isnull().any(axis=1)]
-    invalid_records["rejection_reason"] = invalid_records.apply(
-        lambda row: ", ".join(
-            [f"Missing {col} Column" for col in req_columns if pd.isnull(row[col])]
-        ),
-        axis=1
-    )
-    return invalid_records
+    invalid_records = None
+    try:
+        invalid_records = df[df[req_columns].isnull().any(axis=1)]
+        invalid_records["rejection_reason"] = invalid_records.apply(
+            lambda row: ", ".join(
+                [f"Missing {col} Column" for col in req_columns if pd.isnull(row[col])]
+            ),
+            axis=1
+        )
+        return invalid_records
+    except KeyError as err:
+        return ("Invalid column provided. No such column exists.", err.args)
+    
+
+test = validate_missing_data(patients_df, ['TEST', 'ID'])
 
 def validate_duplicate_ids(df: pd.DataFrame, id_column: str):
     invalid_records = df[df.duplicated(subset=[id_column], keep=False)]

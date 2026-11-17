@@ -1,3 +1,6 @@
+ensure that when validating foreign IDs, that blank is seen is an invalid id, and therefore
+does not return as a relationship
+
 for all validation methods, wrap logic in try catch and return custom exceptions
 in the event the DF supplied is not valid
 
