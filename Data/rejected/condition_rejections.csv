@@ -1,6 +1,623 @@
 _source_row,START,STOP,PATIENT,ENCOUNTER,SYSTEM,CODE,DESCRIPTION,rejection_reason
-3387,2002-05-09,,,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Missing PATIENT Column
-3388,2002-05-09,,INVALID-PATIENT-002,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Invalid Patient ID
-3389,2002-05-09,,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,,SNOMED-CT,160968000.0,Risk activity involvement (finding),Missing ENCOUNTER Column
-3391,2002-05-09,,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,,Risk activity involvement (finding),Missing CODE Column
-3393,2025-06-15,2025-06-14,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Stop date is before start date
+12,8/18/2016,6/9/2022,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-ed22-eb1a641f43f4,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+13,8/18/2016,6/6/2019,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-ed22-eb1a641f43f4,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+14,8/18/2016,6/6/2019,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-ed22-eb1a641f43f4,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+34,1/2/2021,1/12/2021,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-0656-d2b5b80c7a21,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+35,1/9/2017,1/21/2019,815ff645-c396-834b-d0ee-0620a11710cf,815ff645-c396-834b-928b-4e7b62a29f52,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+38,8/30/2023,3/13/2024,1d670d3c-f290-52f4-9409-aaffd1eb59f5,1d670d3c-f290-52f4-a1c1-0bc0344eca41,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+49,2/10/2020,2/1/2021,815ff645-c396-834b-d0ee-0620a11710cf,815ff645-c396-834b-a5c9-a9d73d3c9eee,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+54,2/7/2022,2/21/2022,815ff645-c396-834b-d0ee-0620a11710cf,815ff645-c396-834b-4490-411e5268764e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+71,5/15/2015,11/17/2017,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-995f-154d17ee4f2e,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+74,9/15/2017,4/20/2018,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-b10b-14af3d0ce6bc,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+79,9/13/2019,3/27/2020,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-a863-ca4f5f763628,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+82,9/11/2020,10/6/2020,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-225a-ea086eb0b998,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+83,9/2/2022,9/11/2026,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-36da-57cc01bcf945,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+84,9/2/2022,9/16/2022,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-36da-57cc01bcf945,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+88,9/6/2024,9/20/2024,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-b262-7b76df01ce43,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+89,9/27/2024,10/9/2024,73982c5e-bf00-2a88-6a08-26a3030898c8,73982c5e-bf00-2a88-2327-c25a38ebf575,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+95,1/7/2017,1/19/2019,1c51694e-3b0d-eb59-c08c-62414aeba810,1c51694e-3b0d-eb59-c56d-0f2e1e41c108,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+96,2/24/2018,10/13/2018,1c51694e-3b0d-eb59-c08c-62414aeba810,1c51694e-3b0d-eb59-6231-454a425f844c,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+99,8/7/2019,10/22/2019,1c51694e-3b0d-eb59-c08c-62414aeba810,1c51694e-3b0d-eb59-bf18-b8ce4de9ed0c,SNOMED-CT,125605004.0,Fracture of bone (disorder),Stop date is before start date
+100,8/7/2019,10/22/2019,1c51694e-3b0d-eb59-c08c-62414aeba810,1c51694e-3b0d-eb59-bf18-b8ce4de9ed0c,SNOMED-CT,33737001.0,Fracture of rib (disorder),Stop date is before start date
+109,1/3/2023,1/24/2023,1c51694e-3b0d-eb59-c08c-62414aeba810,1c51694e-3b0d-eb59-0b1d-af6bab2c2c07,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+126,3/22/2020,10/3/2021,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-688c-595c6dde0c95,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+131,9/21/2021,10/1/2021,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-c900-52eecfbd6b85,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+132,4/3/2022,4/26/2026,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-672b-8196521eddd6,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+133,4/3/2022,4/17/2022,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-672b-8196521eddd6,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+137,8/14/2022,4/9/2023,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-1295-d72ba0ad85c5,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+138,8/14/2022,4/26/2026,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-1295-d72ba0ad85c5,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+141,3/5/2023,3/18/2023,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-6a3f-60923cc960e5,SNOMED-CT,85116003.0,Miscarriage in second trimester (disorder),Stop date is before start date
+142,3/5/2023,3/18/2023,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-6a3f-60923cc960e5,SNOMED-CT,267253006.0,Fetus with chromosomal abnormality (disorder),Stop date is before start date
+144,4/9/2023,4/14/2024,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-f058-438f72b28349,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+145,6/25/2023,1/21/2024,1c71f4c4-c4a6-47fd-6d52-182f2a8d0cf0,1c71f4c4-c4a6-47fd-5cc0-616fd07c6e58,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+175,9/6/2020,8/21/2022,0f5801b2-5a83-6af7-c532-d96b5b8af729,0f5801b2-5a83-6af7-8d26-6723b62bc843,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+176,9/6/2020,8/27/2023,0f5801b2-5a83-6af7-c532-d96b5b8af729,0f5801b2-5a83-6af7-8d26-6723b62bc843,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+177,9/6/2020,9/21/2020,0f5801b2-5a83-6af7-c532-d96b5b8af729,0f5801b2-5a83-6af7-8d26-6723b62bc843,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+218,7/5/2002,7/11/2003,10bb8914-0338-90ea-87ff-9231ff231563,10bb8914-0338-90ea-1152-a4f6f4c6c3d6,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+219,7/5/2002,7/11/2003,10bb8914-0338-90ea-87ff-9231ff231563,10bb8914-0338-90ea-1152-a4f6f4c6c3d6,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+228,12/16/2006,1/3/2007,10bb8914-0338-90ea-87ff-9231ff231563,10bb8914-0338-90ea-e93b-7ed22afffa94,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+241,9/19/2018,2/20/2019,16f7e7d8-91f7-81f6-505f-5f94988e8437,16f7e7d8-91f7-81f6-212d-8f2e27a6b2e8,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+242,2/8/2019,2/19/2019,16f7e7d8-91f7-81f6-505f-5f94988e8437,16f7e7d8-91f7-81f6-6e08-9e675a260e3f,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+244,6/8/2020,6/27/2020,16f7e7d8-91f7-81f6-505f-5f94988e8437,16f7e7d8-91f7-81f6-79db-56dafdad01f5,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+246,9/30/2020,10/7/2020,16f7e7d8-91f7-81f6-505f-5f94988e8437,16f7e7d8-91f7-81f6-a7d4-19630ae0670a,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+250,10/6/2021,10/13/2021,16f7e7d8-91f7-81f6-505f-5f94988e8437,16f7e7d8-91f7-81f6-450c-ad7b631da2e0,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+257,11/8/2004,11/21/2016,69bacca4-0807-043d-cf29-3bcdd444566a,69bacca4-0807-043d-5719-bb163db12a0a,SNOMED-CT,1.0939881000119104e+16,Unhealthy alcohol drinking behavior (finding),Stop date is before start date
+265,9/9/2019,9/13/2021,69bacca4-0807-043d-cf29-3bcdd444566a,69bacca4-0807-043d-af39-aec64a836646,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+266,9/9/2019,9/13/2021,69bacca4-0807-043d-cf29-3bcdd444566a,69bacca4-0807-043d-af39-aec64a836646,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+267,9/9/2019,9/13/2021,69bacca4-0807-043d-cf29-3bcdd444566a,69bacca4-0807-043d-af39-aec64a836646,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+270,4/8/2021,4/17/2021,69bacca4-0807-043d-cf29-3bcdd444566a,69bacca4-0807-043d-f891-3a5e76233993,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+280,9/23/2025,10/7/2025,69bacca4-0807-043d-cf29-3bcdd444566a,69bacca4-0807-043d-1887-ce5d0b8404f8,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+286,7/14/2008,5/29/2017,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-7985-98b9ae785b70,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+293,6/4/2018,6/21/2021,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-7c9c-d39d5aa6144d,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+294,6/4/2018,6/10/2019,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-7c9c-d39d5aa6144d,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+295,6/4/2018,6/10/2019,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-7c9c-d39d5aa6144d,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+296,6/4/2018,6/10/2019,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-7c9c-d39d5aa6144d,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+297,6/10/2019,12/16/2019,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-1be0-009e2e8509b7,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+298,6/10/2019,12/16/2019,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-1be0-009e2e8509b7,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+300,12/23/2019,1/5/2020,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-4156-d0af86c43463,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+306,7/4/2023,7/18/2023,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-4519-27f0bbe028fc,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+308,7/8/2024,7/14/2025,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-2b90-cd3bddb7ae68,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+309,7/8/2024,7/14/2025,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-2b90-cd3bddb7ae68,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+310,7/8/2024,7/14/2025,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-2b90-cd3bddb7ae68,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+311,7/8/2024,7/14/2025,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-2b90-cd3bddb7ae68,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+312,7/9/2024,7/23/2024,10f38e84-4e7a-02a0-5500-ba5a7611b583,10f38e84-4e7a-02a0-2b90-cd3bddb7ae68,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+325,9/25/2016,3/10/2019,be9df765-800a-5061-e0ff-34f9d0f79a95,be9df765-800a-5061-b880-ba9a421c49b1,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+326,9/25/2016,2/26/2017,be9df765-800a-5061-e0ff-34f9d0f79a95,be9df765-800a-5061-b880-ba9a421c49b1,SNOMED-CT,361055000.0,Misuses drugs (finding),Stop date is before start date
+339,3/4/2018,3/10/2019,be9df765-800a-5061-e0ff-34f9d0f79a95,be9df765-800a-5061-df61-c903b3913331,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+344,11/5/2020,11/22/2020,be9df765-800a-5061-e0ff-34f9d0f79a95,be9df765-800a-5061-034b-7d26ed0e72e9,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+354,4/2/2023,4/16/2023,be9df765-800a-5061-e0ff-34f9d0f79a95,be9df765-800a-5061-7aae-bac4f929bad5,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+356,4/7/2024,4/13/2025,be9df765-800a-5061-e0ff-34f9d0f79a95,be9df765-800a-5061-669d-2505cfa0fac7,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+371,4/23/1993,11/11/1994,0f24196d-4714-8a74-e3f7-19010527f7bb,0f24196d-4714-8a74-5abd-f5900773a748,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+372,4/23/1993,11/5/1993,0f24196d-4714-8a74-e3f7-19010527f7bb,0f24196d-4714-8a74-5abd-f5900773a748,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+373,4/23/1993,11/5/1993,0f24196d-4714-8a74-e3f7-19010527f7bb,0f24196d-4714-8a74-5abd-f5900773a748,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+375,11/5/1993,11/22/1996,0f24196d-4714-8a74-e3f7-19010527f7bb,0f24196d-4714-8a74-4100-ae0d9ed8ce1e,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+392,12/4/1998,12/21/2001,0f24196d-4714-8a74-e3f7-19010527f7bb,0f24196d-4714-8a74-7132-d798cd975921,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+394,9/7/1999,9/15/1999,0f24196d-4714-8a74-e3f7-19010527f7bb,0f24196d-4714-8a74-683c-db752ebe62c9,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+405,6/13/2017,11/21/2017,ef74fec9-541e-fab6-90f5-540f1e951194,ef74fec9-541e-fab6-3bb9-0b04a6c15546,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+407,7/25/2018,10/26/2018,ef74fec9-541e-fab6-90f5-540f1e951194,ef74fec9-541e-fab6-8d0d-225c57d6f2f8,SNOMED-CT,125605004.0,Fracture of bone (disorder),Stop date is before start date
+408,7/25/2018,10/26/2018,ef74fec9-541e-fab6-90f5-540f1e951194,ef74fec9-541e-fab6-8d0d-225c57d6f2f8,SNOMED-CT,65966004.0,Fracture of forearm (disorder),Stop date is before start date
+409,11/20/2018,11/19/2019,ef74fec9-541e-fab6-90f5-540f1e951194,ef74fec9-541e-fab6-8936-93490f30e872,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+412,8/26/2020,11/17/2020,ef74fec9-541e-fab6-90f5-540f1e951194,ef74fec9-541e-fab6-b5fb-98a05da75609,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+417,12/17/2023,1/9/2024,ef74fec9-541e-fab6-90f5-540f1e951194,ef74fec9-541e-fab6-ada2-a17790cd9f8a,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+426,8/19/2016,4/7/2017,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-b545-60997942a43f,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+432,7/21/2017,3/2/2018,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-0b19-a16e4c9fd193,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+439,9/6/2019,9/17/2021,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-971d-61853122b412,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+440,9/6/2019,9/23/2022,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-971d-61853122b412,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+441,9/6/2019,10/4/2024,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-971d-61853122b412,SNOMED-CT,361055000.0,Misuses drugs (finding),Stop date is before start date
+442,9/6/2019,9/20/2019,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-971d-61853122b412,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+452,9/23/2022,10/10/2025,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-c0c4-69e700549d98,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+453,9/23/2022,10/7/2022,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-c0c4-69e700549d98,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+457,9/29/2023,10/13/2023,242e8aeb-c9c2-0594-a1f3-15ce7014698e,242e8aeb-c9c2-0594-e702-0fb1c8528bf9,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+476,11/2/2013,11/19/2016,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-61e7-478914505f7b,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+485,12/31/2016,1/27/2017,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-0d9a-16d93fc1bb7e,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+489,12/7/2019,12/12/2020,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-17a8-644952ad9148,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+490,12/7/2019,12/12/2020,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-17a8-644952ad9148,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+491,12/7/2019,12/21/2019,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-17a8-644952ad9148,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+502,12/24/2022,1/7/2023,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-2531-5b7334260e06,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+505,12/30/2023,1/4/2025,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-9e96-c9977688ad70,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+506,12/30/2023,1/4/2025,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-9e96-c9977688ad70,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+507,4/6/2024,4/28/2024,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-3c88-daa4e1956c9a,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+508,12/2/2024,12/12/2024,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-6d11-ff2b17f1b5fd,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+509,1/4/2025,1/10/2026,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-5eb8-4773c283a23e,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+510,1/4/2025,1/18/2025,d90eef0c-f760-8eca-3edc-e289e9b1ff52,d90eef0c-f760-8eca-5eb8-4773c283a23e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+519,9/17/2016,10/10/2020,2b6ff529-5434-6e3f-f7bb-2135c44dce07,2b6ff529-5434-6e3f-b11e-fa3dbf9d8c4e,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+520,7/7/2018,7/17/2018,2b6ff529-5434-6e3f-f7bb-2135c44dce07,2b6ff529-5434-6e3f-532d-daab7fd4b6ec,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+536,11/8/2025,11/22/2025,2b6ff529-5434-6e3f-f7bb-2135c44dce07,2b6ff529-5434-6e3f-cea8-99be26d078fb,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+540,6/8/2012,6/24/2022,dacd76f7-1058-504d-47e9-c2cebc1ac573,dacd76f7-1058-504d-df66-80d2d9b13d88,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+554,9/6/2015,9/17/2017,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-4c4f-68389605f026,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+555,9/6/2015,10/4/2020,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-4c4f-68389605f026,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+556,9/12/2016,12/12/2016,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-9788-a7cc78e1f97f,SNOMED-CT,283545005.0,Gunshot wound (disorder),Stop date is before start date
+557,9/12/2016,12/12/2016,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-9788-a7cc78e1f97f,SNOMED-CT,262574004.0,Bullet wound (disorder),Stop date is before start date
+558,9/23/2018,1/30/2022,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-b6f4-9c125f08bc3e,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+563,10/4/2020,10/10/2021,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-8651-5f04060543b8,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+564,10/4/2020,1/2/2022,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-8651-5f04060543b8,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+571,12/4/2020,12/15/2020,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-5c4e-6115305a86c2,SNOMED-CT,233604007.0,Pneumonia (disorder),Stop date is before start date
+572,12/4/2020,12/15/2020,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-5c4e-6115305a86c2,SNOMED-CT,389087006.0,Hypoxemia (disorder),Stop date is before start date
+573,12/4/2020,12/15/2020,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-5c4e-6115305a86c2,SNOMED-CT,271825005.0,Respiratory distress (finding),Stop date is before start date
+577,10/10/2021,1/2/2022,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-f38e-f8c8973000d5,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+585,2/27/2022,1/22/2023,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-6a58-f0fb59a45363,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+586,2/27/2022,1/22/2023,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-6a58-f0fb59a45363,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+589,10/16/2022,1/22/2023,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-54fa-06e0ed4dab60,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+590,10/16/2022,1/22/2023,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-54fa-06e0ed4dab60,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+594,9/24/2023,10/22/2023,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-3e74-11f6c0fa2e67,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+595,9/24/2023,10/8/2023,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-3e74-11f6c0fa2e67,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+598,7/21/2024,10/27/2024,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-96c0-b7dcc4d8b1c8,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+599,7/21/2024,10/27/2024,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-96c0-b7dcc4d8b1c8,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+600,7/21/2024,5/11/2025,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-96c0-b7dcc4d8b1c8,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+601,7/21/2024,10/27/2024,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-96c0-b7dcc4d8b1c8,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+605,5/11/2025,11/2/2025,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-9644-57d6342e9e8d,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+606,5/11/2025,11/2/2025,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-9644-57d6342e9e8d,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+611,11/2/2025,11/16/2025,492dfa32-d7b8-faf8-c7d9-ba12d95f82cd,492dfa32-d7b8-faf8-bbb7-ada770d4e5c4,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+614,11/2/2017,11/14/2019,4091b9f5-1779-c891-ea3d-0ef10828bcbd,4091b9f5-1779-c891-fddd-a7481d2344cf,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+616,11/8/2018,11/15/2018,4091b9f5-1779-c891-ea3d-0ef10828bcbd,4091b9f5-1779-c891-4059-14c8e8e6935e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+623,12/7/2023,12/18/2025,4091b9f5-1779-c891-ea3d-0ef10828bcbd,4091b9f5-1779-c891-4963-8eb2f07a8fa7,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+624,12/26/2023,1/5/2024,4091b9f5-1779-c891-ea3d-0ef10828bcbd,4091b9f5-1779-c891-c2bf-6ca234fe7bc2,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+626,12/18/2025,1/1/2026,4091b9f5-1779-c891-ea3d-0ef10828bcbd,4091b9f5-1779-c891-8186-db0051781bb8,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+627,7/8/2026,7/23/2026,4091b9f5-1779-c891-ea3d-0ef10828bcbd,4091b9f5-1779-c891-fde9-cdb56c97eeb5,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+635,2/5/2019,2/13/2019,337f0745-95ef-af89-6f88-e00fe0e29b6d,337f0745-95ef-af89-2128-3bf809206909,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+640,8/7/2019,8/14/2019,337f0745-95ef-af89-6f88-e00fe0e29b6d,337f0745-95ef-af89-3406-cc02fab0f15b,SNOMED-CT,43878008.0,Streptococcal sore throat (disorder),Stop date is before start date
+646,6/20/2021,10/29/2022,337f0745-95ef-af89-6f88-e00fe0e29b6d,337f0745-95ef-af89-2394-c4f7b294c652,SNOMED-CT,192127007.0,Child attention deficit disorder (disorder),Stop date is before start date
+648,3/5/2024,3/20/2024,337f0745-95ef-af89-6f88-e00fe0e29b6d,337f0745-95ef-af89-82d7-db83dc6fe54a,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+662,7/13/2017,2/22/2018,f20d33c2-0ef0-d1a8-d646-5a0b029097b1,f20d33c2-0ef0-d1a8-2a3a-cf582e7b3022,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+690,6/6/2004,6/16/2004,bbd027f2-6ec0-ef30-7696-c8a6afb66e44,bbd027f2-6ec0-ef30-2355-b0f00eddf023,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+700,6/9/2007,6/23/2007,bbd027f2-6ec0-ef30-7696-c8a6afb66e44,bbd027f2-6ec0-ef30-4ed0-73ce318e01ab,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+707,7/2/2011,7/16/2011,bbd027f2-6ec0-ef30-7696-c8a6afb66e44,bbd027f2-6ec0-ef30-85e9-35e1217740c0,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+712,7/7/2012,7/21/2012,bbd027f2-6ec0-ef30-7696-c8a6afb66e44,bbd027f2-6ec0-ef30-65b6-3b10ec3a157e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+719,9/25/2013,11/10/2021,96cbbb7a-3996-8d07-80f3-f9dadd3cfec7,96cbbb7a-3996-8d07-4cc5-b681a90a5b4b,SNOMED-CT,361055000.0,Misuses drugs (finding),Stop date is before start date
+720,10/7/2015,10/18/2017,96cbbb7a-3996-8d07-80f3-f9dadd3cfec7,96cbbb7a-3996-8d07-5bd5-110bf4927513,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+729,11/4/2020,11/10/2021,96cbbb7a-3996-8d07-80f3-f9dadd3cfec7,96cbbb7a-3996-8d07-e8ff-58e0fd035de8,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+730,11/4/2020,11/10/2021,96cbbb7a-3996-8d07-80f3-f9dadd3cfec7,96cbbb7a-3996-8d07-e8ff-58e0fd035de8,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+731,11/4/2020,11/10/2021,96cbbb7a-3996-8d07-80f3-f9dadd3cfec7,96cbbb7a-3996-8d07-e8ff-58e0fd035de8,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+749,4/19/2018,4/18/2019,bd9dfdd1-aebf-018a-774f-e531d29678e5,bd9dfdd1-aebf-018a-5cfb-9f99b7338d81,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+769,3/19/2011,3/10/2018,ea20ca42-d23e-df84-54aa-4e011c777025,ea20ca42-d23e-df84-b2ec-c9a3dfc4b149,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+770,3/23/2013,3/16/2019,ea20ca42-d23e-df84-54aa-4e011c777025,ea20ca42-d23e-df84-6ad8-c3d4d546ac75,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+775,2/4/2018,2/11/2018,ea20ca42-d23e-df84-54aa-4e011c777025,ea20ca42-d23e-df84-83fc-6853df98e7a4,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+796,4/2/2022,4/19/2025,ea20ca42-d23e-df84-54aa-4e011c777025,ea20ca42-d23e-df84-fa91-1602b17341b5,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+797,4/8/2023,4/13/2024,ea20ca42-d23e-df84-54aa-4e011c777025,ea20ca42-d23e-df84-1ccf-18813ae78d22,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+798,4/8/2023,4/19/2025,ea20ca42-d23e-df84-54aa-4e011c777025,ea20ca42-d23e-df84-1ccf-18813ae78d22,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+811,12/23/2009,12/11/2024,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-9667-d39160bf5a1e,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+820,5/20/2020,10/28/2020,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-5f2b-8bd1cc573745,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+821,5/20/2020,10/28/2020,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-5f2b-8bd1cc573745,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+830,8/11/2021,11/9/2022,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-9827-f6c4d9368cfb,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+834,11/3/2021,11/17/2021,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-11e6-1380ebf4b2ff,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+837,11/9/2022,11/20/2024,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-1dd4-323cff68260b,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+844,12/2/2024,12/13/2024,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-d3e8-78aa0f0148dd,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+846,12/11/2024,11/26/2025,b76d5c14-f629-cf57-5d6d-93fb3ab63dce,b76d5c14-f629-cf57-89cb-a9ac7d13ef3e,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+856,8/17/2007,7/20/2018,ad7717a7-c19a-ec34-0d65-121bc7b9335b,ad7717a7-c19a-ec34-23d6-09fe522b811b,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+857,7/8/2016,7/14/2017,ad7717a7-c19a-ec34-0d65-121bc7b9335b,ad7717a7-c19a-ec34-9a27-db341c2f1142,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+858,7/8/2016,7/26/2019,ad7717a7-c19a-ec34-0d65-121bc7b9335b,ad7717a7-c19a-ec34-9a27-db341c2f1142,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+874,8/6/2021,8/12/2022,ad7717a7-c19a-ec34-0d65-121bc7b9335b,ad7717a7-c19a-ec34-bf12-4b0e22e80c59,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+890,7/3/2017,7/20/2020,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-2c57-523c3b421220,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+894,7/9/2018,7/15/2019,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-e99a-3fd43e154492,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+895,7/9/2018,7/23/2018,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-e99a-3fd43e154492,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+897,8/9/2024,8/26/2024,ad7717a7-c19a-ec34-0d65-121bc7b9335b,ad7717a7-c19a-ec34-b9b7-af55acc98e50,SNOMED-CT,384709000.0,Sprain (morphologic abnormality),Stop date is before start date
+898,8/9/2024,8/26/2024,ad7717a7-c19a-ec34-0d65-121bc7b9335b,ad7717a7-c19a-ec34-b9b7-af55acc98e50,SNOMED-CT,70704007.0,Sprain of wrist (disorder),Stop date is before start date
+906,7/20/2020,3/8/2021,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-d9b8-1475bf8e7bcf,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+907,7/20/2020,3/8/2021,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-d9b8-1475bf8e7bcf,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+915,8/7/2023,8/18/2025,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-b04a-e50776bcc16d,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+916,8/7/2023,8/12/2024,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-b04a-e50776bcc16d,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+917,8/7/2023,8/21/2023,3428c73d-cb8d-c081-e31c-bfee397eb4bb,3428c73d-cb8d-c081-b04a-e50776bcc16d,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+943,5/11/2002,1/14/2017,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-2fad-98049b0e3af8,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+945,12/28/2013,12/23/2017,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-c542-cd90a3e9178f,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+955,12/23/2017,1/20/2018,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-91ef-27e426b82a80,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+956,12/23/2017,1/6/2018,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-91ef-27e426b82a80,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+957,12/30/2017,1/20/2018,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-cd6b-0e6acadefb62,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+968,7/6/2019,3/1/2025,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-87b9-7352a6d94751,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+969,7/13/2019,2/6/2021,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-c102-a46ec7890faf,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+977,7/9/2022,7/23/2022,7fc5a38e-c3da-07c2-2015-d9802d305f0a,7fc5a38e-c3da-07c2-6099-65e4a4a347dd,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1005,4/4/2019,4/18/2019,b3d9fe5d-04e1-dc3e-ceef-0719f236eff6,b3d9fe5d-04e1-dc3e-a48e-fb61cc17a696,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1011,8/27/2020,4/15/2021,b3d9fe5d-04e1-dc3e-ceef-0719f236eff6,b3d9fe5d-04e1-dc3e-6512-fafcd7402f9e,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1021,9/22/2016,12/29/2016,141a1044-5626-4d31-2f1b-eee5da610008,141a1044-5626-4d31-c47a-d03293bb9065,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1023,3/2/2017,11/30/2017,141a1044-5626-4d31-2f1b-eee5da610008,141a1044-5626-4d31-2a4c-2d0a3e96f340,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1031,5/5/2020,5/14/2020,141a1044-5626-4d31-2f1b-eee5da610008,141a1044-5626-4d31-5780-826a60141266,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1032,9/2/2021,9/14/2023,141a1044-5626-4d31-2f1b-eee5da610008,141a1044-5626-4d31-4ccc-7ee4010294e8,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1035,9/25/2025,10/1/2026,141a1044-5626-4d31-2f1b-eee5da610008,141a1044-5626-4d31-e091-c7fcf5d26961,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1043,1/2/2016,1/11/2025,111cdc71-87ec-e924-559b-09417c3bef49,111cdc71-87ec-e924-d581-68c958091e6c,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+1051,12/15/2020,1/4/2021,111cdc71-87ec-e924-559b-09417c3bef49,111cdc71-87ec-e924-b169-553d928bc462,SNOMED-CT,312608009.0,Laceration - injury (disorder),Stop date is before start date
+1052,12/15/2020,1/4/2021,111cdc71-87ec-e924-559b-09417c3bef49,111cdc71-87ec-e924-b169-553d928bc462,SNOMED-CT,370247008.0,Facial laceration (disorder),Stop date is before start date
+1053,8/4/2021,8/23/2021,111cdc71-87ec-e924-559b-09417c3bef49,111cdc71-87ec-e924-c157-d7bf45cb0314,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1054,1/8/2022,1/11/2025,111cdc71-87ec-e924-559b-09417c3bef49,111cdc71-87ec-e924-9350-61fb69a1674d,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1055,1/8/2022,1/22/2022,111cdc71-87ec-e924-559b-09417c3bef49,111cdc71-87ec-e924-9350-61fb69a1674d,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1062,8/5/1998,7/7/2004,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-0a7b-f2676e657a73,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1063,8/6/1998,8/16/2007,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-0a7b-f2676e657a73,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1065,8/9/2001,7/8/2004,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-6e9c-cf6d7879c423,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+1066,8/9/2001,7/8/2004,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-6e9c-cf6d7879c423,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+1067,8/9/2001,7/8/2004,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-6e9c-cf6d7879c423,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+1070,7/8/2004,7/22/2004,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-952e-e8609b47e1ed,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1072,8/12/2004,6/3/2010,e4f07ffe-9732-4495-2876-3829e3677829,e4f07ffe-9732-4495-ebd8-16e85609ef0c,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1097,3/3/2018,3/14/2020,3f0c90c7-2489-1306-ff69-868509c56635,3f0c90c7-2489-1306-79f4-49c207ce5f10,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1102,3/9/2019,3/14/2020,3f0c90c7-2489-1306-ff69-868509c56635,3f0c90c7-2489-1306-7637-02d8d0d0309f,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1103,3/9/2019,3/14/2020,3f0c90c7-2489-1306-ff69-868509c56635,3f0c90c7-2489-1306-7637-02d8d0d0309f,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+1117,4/6/2024,4/12/2025,3f0c90c7-2489-1306-ff69-868509c56635,3f0c90c7-2489-1306-5863-489b008c08fa,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+1119,4/6/2024,4/12/2025,3f0c90c7-2489-1306-ff69-868509c56635,3f0c90c7-2489-1306-5863-489b008c08fa,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1136,3/18/2018,2/23/2020,091a4b71-31ee-8d39-c0a6-c021b3951aed,091a4b71-31ee-8d39-12ed-df15f2cbfe81,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1137,3/18/2018,2/23/2020,091a4b71-31ee-8d39-c0a6-c021b3951aed,091a4b71-31ee-8d39-12ed-df15f2cbfe81,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+1145,3/6/2022,3/17/2024,091a4b71-31ee-8d39-c0a6-c021b3951aed,091a4b71-31ee-8d39-8304-af09ade57519,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1146,3/6/2022,1/8/2023,091a4b71-31ee-8d39-c0a6-c021b3951aed,091a4b71-31ee-8d39-8304-af09ade57519,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+1147,3/6/2022,3/20/2022,091a4b71-31ee-8d39-c0a6-c021b3951aed,091a4b71-31ee-8d39-8304-af09ade57519,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1151,12/29/2022,1/6/2023,091a4b71-31ee-8d39-c0a6-c021b3951aed,091a4b71-31ee-8d39-3dac-cc73956200ef,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1170,4/4/2020,4/27/2020,e867c605-5382-756c-1d1f-a012fbc8d3b5,e867c605-5382-756c-8532-5004a2d055dd,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1171,7/4/2020,2/6/2021,e867c605-5382-756c-1d1f-a012fbc8d3b5,e867c605-5382-756c-1bae-e4dbdbeadd7d,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+1177,5/25/2024,12/21/2024,e867c605-5382-756c-1d1f-a012fbc8d3b5,e867c605-5382-756c-cebc-a0fdac7a0478,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+1191,3/7/2018,3/13/2019,bb494bf8-339d-d47a-e819-b9cd2a11f248,bb494bf8-339d-d47a-a586-e0e0b1ce8c18,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1192,3/8/2018,3/22/2018,bb494bf8-339d-d47a-e819-b9cd2a11f248,bb494bf8-339d-d47a-a586-e0e0b1ce8c18,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1204,4/5/2023,4/16/2025,bb494bf8-339d-d47a-e819-b9cd2a11f248,bb494bf8-339d-d47a-22d5-ef9b1d9860fb,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1205,4/6/2023,4/11/2024,bb494bf8-339d-d47a-e819-b9cd2a11f248,bb494bf8-339d-d47a-22d5-ef9b1d9860fb,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1206,4/6/2023,4/20/2023,bb494bf8-339d-d47a-e819-b9cd2a11f248,bb494bf8-339d-d47a-22d5-ef9b1d9860fb,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1215,3/21/1979,2/24/1984,f75ba0c0-3571-3d63-e40b-fbd8571ce025,f75ba0c0-3571-3d63-7d0d-f2aea8191ce1,SNOMED-CT,192127007.0,Child attention deficit disorder (disorder),Stop date is before start date
+1220,4/2/1982,4/16/1982,f75ba0c0-3571-3d63-e40b-fbd8571ce025,f75ba0c0-3571-3d63-18af-975e9b9fa7eb,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1224,6/3/1983,6/19/1983,f75ba0c0-3571-3d63-e40b-fbd8571ce025,f75ba0c0-3571-3d63-c12a-7db9d68786e8,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+1247,4/22/2018,4/18/2021,ca4b7b2c-21a2-ec9e-5b86-d9fad9d45de0,ca4b7b2c-21a2-ec9e-6ef9-e698e05a94b7,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+1252,5/3/2020,5/22/2022,ca4b7b2c-21a2-ec9e-5b86-d9fad9d45de0,ca4b7b2c-21a2-ec9e-2894-94c7177b60c7,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1253,5/3/2020,5/16/2021,ca4b7b2c-21a2-ec9e-5b86-d9fad9d45de0,ca4b7b2c-21a2-ec9e-2894-94c7177b60c7,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1270,6/8/2025,6/14/2026,ca4b7b2c-21a2-ec9e-5b86-d9fad9d45de0,ca4b7b2c-21a2-ec9e-d7dc-9dd44ac14e0f,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1274,4/1/2007,11/20/2016,89316910-0675-d580-ea7d-2b516045ad3e,89316910-0675-d580-4dce-714ea18dfa0b,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1275,11/7/2016,11/25/2016,89316910-0675-d580-ea7d-2b516045ad3e,89316910-0675-d580-7882-c636ed52328a,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1286,12/19/2021,11/6/2022,89316910-0675-d580-ea7d-2b516045ad3e,89316910-0675-d580-09e1-90b45a105453,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1296,11/3/2024,11/26/2024,89316910-0675-d580-ea7d-2b516045ad3e,89316910-0675-d580-a5de-c87735a5ef43,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+1303,2/9/2019,2/21/2019,b6bb2907-5188-8689-8b76-341664e59cb2,b6bb2907-5188-8689-a478-7572159a08e7,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1309,6/6/2024,6/13/2024,b6bb2907-5188-8689-8b76-341664e59cb2,b6bb2907-5188-8689-5fd2-66176e118501,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1336,7/5/2019,7/24/2019,a88d8253-7b27-4746-bc0f-c41e671b6237,a88d8253-7b27-4746-cbe2-f12a75890960,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1342,4/4/2021,4/16/2023,a88d8253-7b27-4746-bc0f-c41e671b6237,a88d8253-7b27-4746-cd4a-170c034fe995,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1343,4/4/2021,4/10/2022,a88d8253-7b27-4746-bc0f-c41e671b6237,a88d8253-7b27-4746-cd4a-170c034fe995,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1344,4/4/2021,4/10/2022,a88d8253-7b27-4746-bc0f-c41e671b6237,a88d8253-7b27-4746-cd4a-170c034fe995,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+1350,3/7/2024,3/16/2024,a88d8253-7b27-4746-bc0f-c41e671b6237,a88d8253-7b27-4746-d3da-218131091708,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1372,4/4/2014,4/27/2018,0c1b260c-7f32-fdd5-15dd-1160caf24c2b,0c1b260c-7f32-fdd5-13b8-152820850eb8,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1385,5/8/2020,5/26/2023,0c1b260c-7f32-fdd5-15dd-1160caf24c2b,0c1b260c-7f32-fdd5-e380-d87a6a994fca,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1386,5/8/2020,5/14/2021,0c1b260c-7f32-fdd5-15dd-1160caf24c2b,0c1b260c-7f32-fdd5-e380-d87a6a994fca,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1387,5/8/2020,5/22/2020,0c1b260c-7f32-fdd5-15dd-1160caf24c2b,0c1b260c-7f32-fdd5-e380-d87a6a994fca,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1400,10/5/2024,10/12/2024,0c1b260c-7f32-fdd5-15dd-1160caf24c2b,0c1b260c-7f32-fdd5-a941-beaa1c1b0bb2,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1402,6/6/2025,6/12/2026,0c1b260c-7f32-fdd5-15dd-1160caf24c2b,0c1b260c-7f32-fdd5-b253-a0294d62b6e8,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+1414,3/7/1992,3/21/1992,6c669866-7041-1992-2938-40ff2a4520f7,6c669866-7041-1992-17c4-4c7dcb55cede,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1419,8/6/1994,3/11/1995,6c669866-7041-1992-2938-40ff2a4520f7,6c669866-7041-1992-36ac-925c6eae53f6,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+1421,11/8/1994,11/18/1994,6c669866-7041-1992-2938-40ff2a4520f7,6c669866-7041-1992-4c51-7e8209129d53,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1429,8/4/1997,8/13/1997,6c669866-7041-1992-2938-40ff2a4520f7,6c669866-7041-1992-3097-ff07692cfa68,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1438,6/9/2015,6/12/2018,8034b960-0ebd-4e25-e008-d3f60d1b51fe,8034b960-0ebd-4e25-578c-05fbda7ed43f,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1439,6/9/2015,6/12/2018,8034b960-0ebd-4e25-e008-d3f60d1b51fe,8034b960-0ebd-4e25-578c-05fbda7ed43f,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+1463,11/8/2014,1/21/2017,51bda7a1-3926-7bdb-b251-d602cf6ed79e,51bda7a1-3926-7bdb-8810-b8f7462feb91,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1467,1/21/2017,1/18/2025,51bda7a1-3926-7bdb-b251-d602cf6ed79e,51bda7a1-3926-7bdb-7cab-18f489a6c3f1,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+1471,1/26/2019,1/13/2024,51bda7a1-3926-7bdb-b251-d602cf6ed79e,51bda7a1-3926-7bdb-4317-34e70f9170fc,SNOMED-CT,1.0939881000119104e+16,Unhealthy alcohol drinking behavior (finding),Stop date is before start date
+1475,1/7/2023,1/13/2024,51bda7a1-3926-7bdb-b251-d602cf6ed79e,51bda7a1-3926-7bdb-a081-25f73d2ebb08,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1488,1/4/2008,1/13/2017,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-8709-5cb6fd0fef86,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1499,8/9/2017,10/19/2017,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-d299-71dfcb333c2f,SNOMED-CT,110030002.0,Concussion injury of brain (disorder),Stop date is before start date
+1500,8/9/2017,10/19/2017,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-d299-71dfcb333c2f,SNOMED-CT,62106007.0,Concussion with no loss of consciousness (disorder),Stop date is before start date
+1507,2/9/2021,2/27/2021,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-58b5-9abac9286576,SNOMED-CT,49727002.0,Cough (finding),Stop date is before start date
+1508,2/9/2021,2/27/2021,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-58b5-9abac9286576,SNOMED-CT,267036007.0,Dyspnea (finding),Stop date is before start date
+1509,2/9/2021,2/27/2021,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-58b5-9abac9286576,SNOMED-CT,56018004.0,Wheezing (finding),Stop date is before start date
+1510,2/9/2021,2/27/2021,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-58b5-9abac9286576,SNOMED-CT,386661006.0,Fever (finding),Stop date is before start date
+1511,2/9/2021,2/27/2021,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-58b5-9abac9286576,SNOMED-CT,36955009.0,Loss of taste (finding),Stop date is before start date
+1512,2/9/2021,2/27/2021,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-58b5-9abac9286576,SNOMED-CT,840539006.0,Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder),Stop date is before start date
+1516,6/7/2023,6/24/2023,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-c4b5-a4f0acb515c3,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+1518,6/16/2023,11/7/2025,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-9840-1d1609f91c71,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1521,10/9/2024,10/29/2024,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-b84c-b52f1dc4b281,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1522,8/15/2025,4/3/2026,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-7143-8203d5deaa47,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+1525,11/7/2025,11/21/2025,97dec775-c4a9-6bb3-f645-63542e24ad07,97dec775-c4a9-6bb3-9f71-173bd6352c16,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1527,9/27/2018,10/11/2018,bae49511-dd8c-d6df-e7be-b77c768bedcc,bae49511-dd8c-d6df-8cff-9d231202450a,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1528,10/3/2019,10/14/2021,bae49511-dd8c-d6df-e7be-b77c768bedcc,bae49511-dd8c-d6df-50f7-b218a8a750cf,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1532,4/2/2022,4/16/2022,bae49511-dd8c-d6df-e7be-b77c768bedcc,bae49511-dd8c-d6df-14de-88f703fe1f18,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1543,12/22/2025,1/7/2026,bae49511-dd8c-d6df-e7be-b77c768bedcc,bae49511-dd8c-d6df-0612-f7951aa856c6,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1550,3/20/2009,1/18/2019,37cd4685-45ad-8602-7fff-2b04af9bc008,37cd4685-45ad-8602-f3e9-1fe21e01a7cb,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1553,3/27/2015,1/12/2018,37cd4685-45ad-8602-7fff-2b04af9bc008,37cd4685-45ad-8602-e9d4-dd1636ba80bd,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1561,11/22/2019,1/24/2020,37cd4685-45ad-8602-7fff-2b04af9bc008,37cd4685-45ad-8602-2f75-30259d8680ac,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1566,3/27/1992,2/2/2024,ec084d82-e517-88af-cc1d-a0881be0f970,ec084d82-e517-88af-0988-68ea139a81c9,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1568,2/6/2015,2/15/2019,ec084d82-e517-88af-cc1d-a0881be0f970,ec084d82-e517-88af-acc7-3130b7567a7b,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1569,2/6/2015,2/10/2017,ec084d82-e517-88af-cc1d-a0881be0f970,ec084d82-e517-88af-acc7-3130b7567a7b,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1593,2/7/2025,2/13/2026,ec084d82-e517-88af-cc1d-a0881be0f970,ec084d82-e517-88af-21db-2a39e670d03d,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1594,2/7/2025,2/13/2026,ec084d82-e517-88af-cc1d-a0881be0f970,ec084d82-e517-88af-21db-2a39e670d03d,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1606,2/6/2016,2/12/2022,55612fe8-9071-4a97-8e4c-8cc653c8394c,55612fe8-9071-4a97-7463-6c2ecd5dc007,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1613,7/3/2018,7/19/2018,55612fe8-9071-4a97-8e4c-8cc653c8394c,55612fe8-9071-4a97-a099-2b25d3d18b85,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1614,2/9/2019,2/12/2022,55612fe8-9071-4a97-8e4c-8cc653c8394c,55612fe8-9071-4a97-c51a-eea3fb14c738,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1616,2/9/2019,2/12/2022,55612fe8-9071-4a97-8e4c-8cc653c8394c,55612fe8-9071-4a97-c51a-eea3fb14c738,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1618,5/4/2019,5/13/2019,55612fe8-9071-4a97-8e4c-8cc653c8394c,55612fe8-9071-4a97-0e3f-959cdf0a5fdc,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1640,6/30/2019,3/28/2021,254685ad-4f09-a8bf-bca9-85fafdfcf4c1,254685ad-4f09-a8bf-ef08-ab44e9833ffe,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1642,8/24/2020,11/7/2020,254685ad-4f09-a8bf-bca9-85fafdfcf4c1,254685ad-4f09-a8bf-82e0-dd8fdcdf2217,SNOMED-CT,307731004.0,Injury of tendon of the rotator cuff of shoulder (disorder),Stop date is before start date
+1663,10/8/2021,10/7/2022,2b9f45d6-b742-8a68-3a22-b9ff8df93521,2b9f45d6-b742-8a68-5f26-086ab3a1a1cd,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1664,9/22/2022,10/6/2022,2b9f45d6-b742-8a68-3a22-b9ff8df93521,2b9f45d6-b742-8a68-740f-77180727258f,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+1667,7/3/2023,10/6/2023,2b9f45d6-b742-8a68-3a22-b9ff8df93521,2b9f45d6-b742-8a68-8a24-4f315a9900e4,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+1674,7/15/2024,10/21/2024,cc63c2f1-1db0-28cb-0324-8be7310ddadd,cc63c2f1-1db0-28cb-5365-d3bfe720e262,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1675,8/26/2024,10/21/2024,cc63c2f1-1db0-28cb-0324-8be7310ddadd,cc63c2f1-1db0-28cb-fe98-163181feee39,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+1685,12/31/2017,1/1/2018,24063415-797f-9c67-c94c-067c97345275,24063415-797f-9c67-6f44-1427a3e0d080,SNOMED-CT,307426000.0,Acute infective cystitis (disorder),Stop date is before start date
+1692,10/6/2019,10/15/2019,24063415-797f-9c67-c94c-067c97345275,24063415-797f-9c67-75bb-620b2696d7ae,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1709,2/7/2020,2/26/2020,472230dc-418a-5d70-da36-9e9e320dcaec,472230dc-418a-5d70-21e4-9d68e8f49844,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1715,9/25/2021,10/19/2021,472230dc-418a-5d70-da36-9e9e320dcaec,472230dc-418a-5d70-f1dc-0952e928b6d0,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1720,8/14/2022,4/20/2025,24063415-797f-9c67-c94c-067c97345275,24063415-797f-9c67-59dc-02dcc0357c56,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1721,12/8/2022,1/4/2023,24063415-797f-9c67-c94c-067c97345275,24063415-797f-9c67-82e4-5dd9601a9594,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1722,4/9/2025,4/17/2025,24063415-797f-9c67-c94c-067c97345275,24063415-797f-9c67-a8a8-f2f77e324450,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+1726,12/30/2024,1/7/2025,472230dc-418a-5d70-da36-9e9e320dcaec,472230dc-418a-5d70-554e-c1788bb31486,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+1731,10/3/2025,10/13/2025,24063415-797f-9c67-c94c-067c97345275,24063415-797f-9c67-9290-b369ea386d39,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1732,4/22/2016,1/19/2018,9e4e42fd-f967-3b5a-5134-8402b1f12b6c,9e4e42fd-f967-3b5a-8b46-772c37c1ec9e,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1735,7/20/2018,10/5/2018,9e4e42fd-f967-3b5a-5134-8402b1f12b6c,9e4e42fd-f967-3b5a-eab2-08d071e36b8f,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1736,9/28/2018,10/11/2018,9e4e42fd-f967-3b5a-5134-8402b1f12b6c,9e4e42fd-f967-3b5a-44de-e08d3a1be692,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+1739,1/7/2019,1/24/2020,9e4e42fd-f967-3b5a-5134-8402b1f12b6c,9e4e42fd-f967-3b5a-4b0d-29e446b8adfd,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+1752,5/9/2017,5/21/2019,fd51467b-6db3-bca2-66fc-f19eeaaa7e33,fd51467b-6db3-bca2-e8f5-120081bbf772,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1754,9/2/2017,9/13/2017,fd51467b-6db3-bca2-66fc-f19eeaaa7e33,fd51467b-6db3-bca2-7ead-c6832cd03ded,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1761,6/7/2022,6/18/2024,fd51467b-6db3-bca2-66fc-f19eeaaa7e33,fd51467b-6db3-bca2-7af8-9100a8762a52,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1762,6/7/2022,6/18/2024,fd51467b-6db3-bca2-66fc-f19eeaaa7e33,fd51467b-6db3-bca2-7af8-9100a8762a52,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1763,6/7/2022,6/21/2022,fd51467b-6db3-bca2-66fc-f19eeaaa7e33,fd51467b-6db3-bca2-7af8-9100a8762a52,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1781,2/25/2018,10/7/2018,38ff4835-fbc3-9099-7614-4f1499549dfe,38ff4835-fbc3-9099-f49c-225fc5d0105f,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+1782,8/12/2018,10/7/2018,38ff4835-fbc3-9099-7614-4f1499549dfe,38ff4835-fbc3-9099-ccae-9fb6c45a0102,SNOMED-CT,398254007.0,Pre-eclampsia (disorder),Stop date is before start date
+1786,9/13/2020,7/6/2025,38ff4835-fbc3-9099-7614-4f1499549dfe,38ff4835-fbc3-9099-081c-82d08dc68151,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1796,8/19/2005,6/14/2024,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-5dd3-ac64dd06afc1,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+1799,6/12/2015,5/28/2021,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-3735-d28e1b4da2fa,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1804,6/21/2019,5/28/2021,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-c8d4-f8061bbaf91a,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+1815,6/3/2022,6/20/2025,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-c647-70d735d90bb3,SNOMED-CT,80583007.0,Severe anxiety (panic) (finding),Stop date is before start date
+1816,6/3/2022,6/17/2022,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-c647-70d735d90bb3,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1819,6/9/2023,6/14/2024,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-a7c7-fbd7d9cff9e8,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+1820,6/9/2023,6/23/2023,0c68cf3c-de5c-e2b6-04e0-0d8ccf4ca76d,0c68cf3c-de5c-e2b6-a7c7-fbd7d9cff9e8,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1837,7/9/2017,7/22/2017,868f2c18-1210-e4f6-d471-4b0b2e370225,868f2c18-1210-e4f6-9c9f-c59ef05a010f,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+1845,7/3/2024,7/17/2024,868f2c18-1210-e4f6-d471-4b0b2e370225,868f2c18-1210-e4f6-b7d7-bdd571035806,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1859,5/9/2016,5/15/2017,3becd134-79d8-dc95-1d60-a9255e9e210b,3becd134-79d8-dc95-30a5-4c395f6c1e61,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+1860,5/9/2016,5/21/2018,3becd134-79d8-dc95-1d60-a9255e9e210b,3becd134-79d8-dc95-30a5-4c395f6c1e61,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+1900,7/6/2026,7/20/2026,3becd134-79d8-dc95-1d60-a9255e9e210b,3becd134-79d8-dc95-32c9-43822b82b3d1,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1911,3/5/2017,3/11/2018,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-1c3d-755d94afb022,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1912,3/5/2017,3/11/2018,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-1c3d-755d94afb022,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+1913,3/5/2017,3/11/2018,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-1c3d-755d94afb022,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+1916,12/24/2018,1/6/2019,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-2a82-abc9e2d8192d,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1920,12/31/2021,1/16/2022,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-9f0b-9b2ceee790fa,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1922,4/3/2022,4/14/2024,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-0944-80804f8cd2f3,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+1924,4/3/2022,4/17/2022,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-0944-80804f8cd2f3,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1925,4/9/2023,4/26/2026,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-7fef-2c2492e85b64,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+1926,4/9/2023,4/23/2023,7dd14aa8-7b82-4f0f-41a6-462265709b20,7dd14aa8-7b82-4f0f-7fef-2c2492e85b64,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1956,1/7/2016,1/12/2017,c4ff5772-cb90-f9bd-9f85-4542e0ebf5fd,c4ff5772-cb90-f9bd-8340-6ee3774902e2,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+1962,12/1/2020,1/1/2021,c4ff5772-cb90-f9bd-9f85-4542e0ebf5fd,c4ff5772-cb90-f9bd-bb11-b62ce6a9499f,SNOMED-CT,49727002.0,Cough (finding),Stop date is before start date
+1963,12/1/2020,1/1/2021,c4ff5772-cb90-f9bd-9f85-4542e0ebf5fd,c4ff5772-cb90-f9bd-bb11-b62ce6a9499f,SNOMED-CT,43724002.0,Chill (finding),Stop date is before start date
+1964,12/1/2020,1/1/2021,c4ff5772-cb90-f9bd-9f85-4542e0ebf5fd,c4ff5772-cb90-f9bd-bb11-b62ce6a9499f,SNOMED-CT,386661006.0,Fever (finding),Stop date is before start date
+1965,12/2/2020,1/1/2021,c4ff5772-cb90-f9bd-9f85-4542e0ebf5fd,c4ff5772-cb90-f9bd-bb11-b62ce6a9499f,SNOMED-CT,840539006.0,Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder),Stop date is before start date
+1966,2/4/2021,2/12/2021,c4ff5772-cb90-f9bd-9f85-4542e0ebf5fd,c4ff5772-cb90-f9bd-668d-95c67f6bc833,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+1982,7/4/2024,7/20/2024,35888667-7e81-9343-2db6-3cfa9fa4e01b,35888667-7e81-9343-9f35-8e27c25d6f37,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+1999,8/19/2016,3/17/2017,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-6a91-74ae38b936f7,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2017,4/21/2017,10/13/2017,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-3428-2234d756d6e7,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2030,8/18/2017,10/13/2017,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-80a6-9af1fb82c7f3,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2031,8/25/2017,10/13/2017,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-3002-40cfd6e0448d,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+2037,12/8/2017,12/15/2017,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-37dd-8080b3765c90,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2039,12/8/2017,12/29/2017,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-37dd-8080b3765c90,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2063,9/21/2018,10/12/2018,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-9c59-1ed460941afc,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2064,9/21/2018,11/16/2018,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-9c59-1ed460941afc,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2077,5/10/2019,12/6/2019,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-8d84-27eca0535a8d,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2081,7/19/2019,12/6/2019,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-c8d3-be729519c343,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2084,9/6/2019,11/1/2019,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-b19c-07390065c118,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+2088,12/6/2019,1/3/2020,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-f522-5f9b60d9099e,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2089,12/6/2019,12/20/2019,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-f522-5f9b60d9099e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2100,1/9/2013,1/19/2022,d8bb1b82-8deb-201a-0fe8-308f79ce31a8,d8bb1b82-8deb-201a-66c9-f3facd4dd8b1,SNOMED-CT,361055000.0,Misuses drugs (finding),Stop date is before start date
+2106,3/6/2020,1/1/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-341f-2b0b676b42e5,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2117,5/8/2020,5/22/2020,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-e3eb-bc828f5c4f00,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2119,6/5/2020,6/12/2020,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-f210-175edb02c800,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2123,8/7/2020,8/14/2020,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-f053-711d9b54aa13,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2127,9/11/2020,10/9/2020,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-2629-1ed6781d7306,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2130,12/4/2020,1/1/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-9229-64adba3fecd5,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2146,5/7/2021,5/21/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-6e0d-6be212ca763c,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2151,7/2/2021,12/24/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-bb4f-7228a8b4d314,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2156,9/17/2021,10/1/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-887d-0848b6a56bad,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2157,9/17/2021,10/1/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-887d-0848b6a56bad,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+2158,9/24/2021,10/1/2021,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-9016-e38684cc2a5b,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2164,12/31/2021,1/14/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-4814-d6e31064f437,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2173,4/22/2022,10/21/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-8e7f-27ee29fc1802,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+2177,6/17/2022,10/21/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-3775-35d404ffd265,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2182,9/2/2022,10/28/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-ff09-bfe761e637b7,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2184,9/23/2022,10/7/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-2d84-46a6951845a2,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2189,11/4/2022,11/18/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-1ca9-84c5cf5e052e,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2190,11/4/2022,11/18/2022,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-1ca9-84c5cf5e052e,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2191,11/18/2022,1/20/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-96ca-b1b3be5b22b2,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2202,5/5/2023,5/19/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-b0d5-854e04aebeb8,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2203,5/5/2023,5/19/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-b0d5-854e04aebeb8,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2204,5/19/2023,3/22/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-6afc-e91970fdc9d7,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2230,8/18/2023,10/27/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-ba3e-1f68b66e0841,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2234,8/25/2023,12/8/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-604f-63ca9ee14395,SNOMED-CT,125605004.0,Fracture of bone (disorder),Stop date is before start date
+2235,8/25/2023,12/8/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-604f-63ca9ee14395,SNOMED-CT,65966004.0,Fracture of forearm (disorder),Stop date is before start date
+2236,8/25/2023,12/8/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-604f-63ca9ee14395,SNOMED-CT,443165006.0,Osteoporotic fracture of bone (disorder),Stop date is before start date
+2237,9/29/2023,10/6/2023,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-38c0-20cb72d8fc4b,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2244,11/24/2023,1/19/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-93d1-aaa05b4bdf84,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2247,2/9/2024,2/16/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-786c-f5344a27613f,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2251,4/5/2024,4/19/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-819c-0e2f3b94a34c,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2254,5/3/2024,5/17/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-630d-f66d90734484,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2259,8/16/2024,1/31/2025,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-85eb-44c8c82b3d03,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2260,9/13/2024,10/18/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-c566-33cfb7518d98,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2261,9/13/2024,10/11/2024,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-c566-33cfb7518d98,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2268,11/8/2024,1/31/2025,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-b867-d665f5d7ddc2,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2270,11/29/2024,1/10/2025,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-99d3-117c0f9597b4,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2283,6/6/2025,6/13/2025,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-30e4-0769cecd9f08,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2291,9/5/2025,10/31/2025,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-8eea-7a6a92cceebc,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2292,9/5/2025,9/26/2025,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-8eea-7a6a92cceebc,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2293,9/5/2025,2/6/2026,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-8eea-7a6a92cceebc,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2294,9/26/2025,2/6/2026,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-029d-7cbd232ad2ae,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2303,1/2/2026,1/16/2026,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-b47d-6cb1ee264761,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2308,3/6/2026,3/27/2026,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-1af6-aaeb4def0bee,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2309,3/6/2026,3/27/2026,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-1af6-aaeb4def0bee,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+2322,11/2/2001,11/16/2012,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-4d4a-1eb49166fbc6,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+2323,11/7/2003,11/5/2010,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-22a2-582410ed683e,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2324,11/11/2005,10/19/2007,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-80de-3b55ab3a4e3d,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2325,11/11/2005,10/24/2008,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-80de-3b55ab3a4e3d,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2326,11/11/2005,10/19/2007,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-80de-3b55ab3a4e3d,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+2340,11/5/2010,11/11/2011,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-ba6b-70ff582f9361,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2344,11/16/2012,10/25/2013,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-71a9-89b60705e6a4,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2345,11/16/2012,10/25/2013,302b2f8f-6bb2-b242-d64d-ad27d469979f,302b2f8f-6bb2-b242-71a9-89b60705e6a4,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2353,8/7/2026,10/9/2026,007a32fb-33a3-6f75-2161-15a2ea6ed2bf,007a32fb-33a3-6f75-ee2e-c9e0200dc5c0,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2354,12/5/2016,12/11/2017,b11899dd-7755-73bd-cc39-d6eea54d15a1,b11899dd-7755-73bd-fe61-048f516e6ee0,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2355,12/5/2016,12/13/2016,b11899dd-7755-73bd-cc39-d6eea54d15a1,b11899dd-7755-73bd-fe61-048f516e6ee0,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2366,12/24/2019,1/7/2020,b11899dd-7755-73bd-cc39-d6eea54d15a1,b11899dd-7755-73bd-8d3f-8f66bb3a7954,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2369,12/28/2020,1/9/2023,b11899dd-7755-73bd-cc39-d6eea54d15a1,b11899dd-7755-73bd-bdb9-6bb1802bc052,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2370,1/4/2022,1/10/2023,b11899dd-7755-73bd-cc39-d6eea54d15a1,b11899dd-7755-73bd-e6b7-5f09be7f735a,SNOMED-CT,160968000.0,Risk activity involvement (finding),Stop date is before start date
+2396,8/1/2017,5/7/2019,4ecd0e49-cbdb-31b8-06ae-258290d6c788,4ecd0e49-cbdb-31b8-7f88-c5ca1e612958,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2397,8/1/2017,5/7/2019,4ecd0e49-cbdb-31b8-06ae-258290d6c788,4ecd0e49-cbdb-31b8-7f88-c5ca1e612958,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2415,9/5/2023,9/16/2025,4ecd0e49-cbdb-31b8-06ae-258290d6c788,4ecd0e49-cbdb-31b8-3c0d-c9ccec3964f1,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2416,9/5/2023,9/19/2023,4ecd0e49-cbdb-31b8-06ae-258290d6c788,4ecd0e49-cbdb-31b8-3c0d-c9ccec3964f1,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2425,9/26/2016,11/1/2016,279ca2a4-c2d9-4045-83de-f604ed069fe8,279ca2a4-c2d9-4045-1704-d1ca35f11e97,SNOMED-CT,384709000.0,Sprain (morphologic abnormality),Stop date is before start date
+2427,9/26/2016,11/1/2016,279ca2a4-c2d9-4045-83de-f604ed069fe8,279ca2a4-c2d9-4045-1704-d1ca35f11e97,SNOMED-CT,44465007.0,Sprain of ankle (disorder),Stop date is before start date
+2442,2/4/2020,2/24/2020,34c7949d-7d70-2d32-dbe4-129496a384ea,34c7949d-7d70-2d32-747e-a456e4c0e1a5,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+2443,4/5/2020,4/29/2020,34c7949d-7d70-2d32-dbe4-129496a384ea,34c7949d-7d70-2d32-4fef-a21fc39765e0,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2459,8/4/2019,8/23/2019,279ca2a4-c2d9-4045-83de-f604ed069fe8,279ca2a4-c2d9-4045-a5ee-ef80566e53a8,SNOMED-CT,312608009.0,Laceration - injury (disorder),Stop date is before start date
+2460,8/4/2019,8/23/2019,279ca2a4-c2d9-4045-83de-f604ed069fe8,279ca2a4-c2d9-4045-a5ee-ef80566e53a8,SNOMED-CT,284549007.0,Laceration of hand (disorder),Stop date is before start date
+2461,9/24/2020,10/4/2020,279ca2a4-c2d9-4045-83de-f604ed069fe8,279ca2a4-c2d9-4045-a8a2-0c5f31c59f2b,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+2470,5/19/2023,12/29/2023,279ca2a4-c2d9-4045-83de-f604ed069fe8,279ca2a4-c2d9-4045-003d-f9f04cea0ec4,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2483,12/2/2019,12/13/2019,ae3546fc-4eff-79b7-276e-33c7b1beb735,ae3546fc-4eff-79b7-1e24-8d37433ee15e,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+2491,9/5/2020,6/3/2021,ae3546fc-4eff-79b7-276e-33c7b1beb735,ae3546fc-4eff-79b7-d06a-85963f4b66d0,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+2492,4/8/2014,4/26/2022,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-dc4b-e239024b9fa5,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2500,6/9/2022,6/15/2023,ae3546fc-4eff-79b7-276e-33c7b1beb735,ae3546fc-4eff-79b7-4503-0d230e36266a,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2501,6/9/2022,6/15/2023,ae3546fc-4eff-79b7-276e-33c7b1beb735,ae3546fc-4eff-79b7-4503-0d230e36266a,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2507,5/7/2019,12/3/2019,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-cf9e-70afa98fb046,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2508,5/7/2019,12/3/2019,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-cf9e-70afa98fb046,SNOMED-CT,271737000.0,Anemia (disorder),Stop date is before start date
+2513,4/8/2021,4/26/2021,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-11c5-8af91ae797ad,SNOMED-CT,312608009.0,Laceration - injury (disorder),Stop date is before start date
+2514,4/8/2021,4/26/2021,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-11c5-8af91ae797ad,SNOMED-CT,370247008.0,Facial laceration (disorder),Stop date is before start date
+2515,4/26/2022,4/2/2024,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-49a3-183021c7dacb,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+2516,4/26/2022,4/2/2024,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-49a3-183021c7dacb,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+2517,4/26/2022,4/14/2026,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-49a3-183021c7dacb,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2520,4/2/2024,4/16/2024,068177c1-8d2f-d13f-6a1d-227d04383923,068177c1-8d2f-d13f-c230-ae8543f81f4d,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2523,8/29/2023,2/6/2024,2989e622-947b-9319-2f76-95742872f1ae,2989e622-947b-9319-b0a5-7909a61f4deb,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2529,7/20/2025,10/16/2025,2989e622-947b-9319-2f76-95742872f1ae,2989e622-947b-9319-f41b-6883253f5fc1,SNOMED-CT,125605004.0,Fracture of bone (disorder),Stop date is before start date
+2530,7/20/2025,10/16/2025,2989e622-947b-9319-2f76-95742872f1ae,2989e622-947b-9319-f41b-6883253f5fc1,SNOMED-CT,58150001.0,Fracture of clavicle (disorder),Stop date is before start date
+2536,7/8/2017,7/14/2018,4b286419-9530-1f2f-b9f9-638a40f29024,4b286419-9530-1f2f-4d78-f8fa1704f17d,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2537,9/19/2017,10/9/2017,4b286419-9530-1f2f-b9f9-638a40f29024,4b286419-9530-1f2f-f0ed-a82a1ec6cabb,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2557,7/19/2015,3/26/2017,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-44eb-77f535caefd1,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2558,7/24/2016,3/26/2017,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-b758-2445003da5b9,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2561,4/9/2017,4/28/2017,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-cd8c-0da121389331,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+2570,5/9/2019,5/18/2019,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-003f-99d164578f1d,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+2579,9/4/2023,9/18/2023,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-79c4-64bad9cc23c7,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2582,9/8/2024,9/20/2026,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-0eb3-1be6646e6a50,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+2583,9/14/2025,5/24/2026,4bfbd4ee-8869-b526-ecd0-f889f83e0d7c,4bfbd4ee-8869-b526-0d6e-6702ce66102d,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2587,4/6/2009,4/13/2009,2571ad10-0831-bf71-4731-6f7c298b20c7,2571ad10-0831-bf71-308b-13f66acef51c,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2592,5/5/2014,5/19/2014,2571ad10-0831-bf71-4731-6f7c298b20c7,2571ad10-0831-bf71-2609-e278a259f5ae,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2623,8/5/2020,8/19/2020,504af6a2-451e-d45e-cbc9-c8d7e3a34f2f,504af6a2-451e-d45e-df99-62059ba16b1c,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2629,12/31/2022,1/8/2023,504af6a2-451e-d45e-cbc9-c8d7e3a34f2f,504af6a2-451e-d45e-506f-b42a9d248b89,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+2630,8/8/2023,8/20/2023,504af6a2-451e-d45e-cbc9-c8d7e3a34f2f,504af6a2-451e-d45e-efac-af7bbc54588f,SNOMED-CT,43878008.0,Streptococcal sore throat (disorder),Stop date is before start date
+2634,9/24/2025,10/8/2025,504af6a2-451e-d45e-cbc9-c8d7e3a34f2f,504af6a2-451e-d45e-c3c9-d49fddce435a,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2643,9/5/1997,8/28/2026,7552a042-626c-d9fa-ccc1-523d94adc321,7552a042-626c-d9fa-f9fb-5b46f611e8fa,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+2648,10/7/2017,10/16/2017,7552a042-626c-d9fa-ccc1-523d94adc321,7552a042-626c-d9fa-f9aa-4c27871553fb,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+2654,8/14/2020,3/29/2024,7552a042-626c-d9fa-ccc1-523d94adc321,7552a042-626c-d9fa-ea1a-45c933d4c45c,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2657,8/19/2022,3/29/2024,7552a042-626c-d9fa-ccc1-523d94adc321,7552a042-626c-d9fa-0a50-a575685577c6,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2673,2/5/2018,2/12/2024,f5d96290-3260-c984-2a87-3b03dfd52a9d,f5d96290-3260-c984-c7f7-634d26e7ee1c,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+2674,2/5/2018,2/3/2025,f5d96290-3260-c984-2a87-3b03dfd52a9d,f5d96290-3260-c984-c7f7-634d26e7ee1c,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2679,2/8/2021,2/12/2024,f5d96290-3260-c984-2a87-3b03dfd52a9d,f5d96290-3260-c984-81f3-45a699bf64de,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+2694,6/8/2020,6/14/2021,b177c33a-b882-ad97-1865-1803f643116a,b177c33a-b882-ad97-b02f-631496b6acad,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2703,7/7/2025,7/13/2026,b177c33a-b882-ad97-1865-1803f643116a,b177c33a-b882-ad97-7abb-7e8bd65d12b2,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+2710,9/5/2020,9/16/2020,1c9ea0cc-8cef-5c42-9b2a-ecf6fb2a4627,1c9ea0cc-8cef-5c42-bbea-619b7cf1ae27,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2711,9/26/2020,10/8/2022,1c9ea0cc-8cef-5c42-9b2a-ecf6fb2a4627,1c9ea0cc-8cef-5c42-795c-c358f5d55fed,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2712,10/14/2023,1/6/2024,1c9ea0cc-8cef-5c42-9b2a-ecf6fb2a4627,1c9ea0cc-8cef-5c42-7c24-3398d06668e4,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2717,2/7/2026,2/21/2026,1c9ea0cc-8cef-5c42-9b2a-ecf6fb2a4627,1c9ea0cc-8cef-5c42-a0b8-bde2df70ef1b,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2724,3/1/2009,12/30/2018,d5d05a24-dcb7-6e73-aa1f-102d511fb290,d5d05a24-dcb7-6e73-c896-ad86947a6b70,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2725,12/21/2014,1/3/2021,d5d05a24-dcb7-6e73-aa1f-102d511fb290,d5d05a24-dcb7-6e73-0bf7-587ea28bfce4,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2729,12/30/2018,1/8/2023,d5d05a24-dcb7-6e73-aa1f-102d511fb290,d5d05a24-dcb7-6e73-b2d4-dc03cdae0503,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2756,6/5/2016,6/17/2018,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-d1f8-1e839f2cbe76,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2757,6/5/2016,6/11/2017,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-d1f8-1e839f2cbe76,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+2758,6/5/2016,6/11/2017,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-d1f8-1e839f2cbe76,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2760,9/15/2017,10/3/2017,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-087c-d013a2489a17,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2768,7/4/2021,7/16/2023,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-97eb-3d8821159576,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2771,7/16/2023,10/8/2023,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-67ac-24c37cf452a3,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2772,9/28/2023,10/6/2023,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-edb9-10102ee00444,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+2784,11/9/2025,11/29/2025,5558c6b0-d8ba-1121-802b-45b77a0b2215,5558c6b0-d8ba-1121-9242-7a8effb0852f,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+2794,3/6/2017,3/18/2019,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-075d-4ae41767d3f3,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2808,5/3/2021,12/20/2021,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-aff3-4cfb63d5a619,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2810,4/4/2022,4/27/2026,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-158d-ae97c6457a92,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2812,6/5/2023,1/8/2024,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-061f-371aaef3171b,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2813,12/18/2023,1/8/2024,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-dd0f-c0985678c0f0,SNOMED-CT,198992004.0,Eclampsia in pregnancy (disorder),Stop date is before start date
+2817,12/23/2024,1/1/2025,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-dbee-77be7fcb3bcf,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2818,12/23/2024,1/1/2025,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-dbee-77be7fcb3bcf,SNOMED-CT,19169002.0,Miscarriage in first trimester (disorder),Stop date is before start date
+2819,12/23/2024,1/1/2025,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-dbee-77be7fcb3bcf,SNOMED-CT,35999006.0,Blighted ovum (disorder),Stop date is before start date
+2821,4/7/2025,11/10/2025,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-0a65-428181af47e9,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2823,1/5/2026,1/16/2026,765b0c56-0d24-6ccc-57ca-ec77b23b8f20,765b0c56-0d24-6ccc-4010-12f8a155531d,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2826,3/17/2012,3/10/2018,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-1269-22cb6277747f,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2827,7/7/2012,4/2/2022,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-fbee-aec094e3a3fc,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+2841,3/19/2022,10/22/2022,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-e044-82d5b8d20c70,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+2844,10/8/2022,10/22/2022,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-efd3-1f3baa6a8fb4,SNOMED-CT,198992004.0,Eclampsia in pregnancy (disorder),Stop date is before start date
+2845,9/19/2023,11/25/2023,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-978d-f3d677197686,SNOMED-CT,110030002.0,Concussion injury of brain (disorder),Stop date is before start date
+2846,9/19/2023,11/25/2023,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-978d-f3d677197686,SNOMED-CT,62106007.0,Concussion with no loss of consciousness (disorder),Stop date is before start date
+2849,4/2/2025,4/12/2025,9345aa1d-acef-eea9-4904-f19b56249e76,9345aa1d-acef-eea9-f7ef-011d421f27aa,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+2864,8/7/2017,8/13/2018,3f1cdc02-cefc-7d35-e532-d1db16745688,3f1cdc02-cefc-7d35-35aa-4cf1d2ef88fc,SNOMED-CT,422650009.0,Social isolation (finding),Stop date is before start date
+2873,8/24/2020,8/1/2022,3f1cdc02-cefc-7d35-e532-d1db16745688,3f1cdc02-cefc-7d35-93c7-bec84513df5f,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2875,8/30/2021,8/1/2022,3f1cdc02-cefc-7d35-e532-d1db16745688,3f1cdc02-cefc-7d35-2cd4-6a880a9ade7d,SNOMED-CT,706893006.0,Victim of intimate partner abuse (finding),Stop date is before start date
+2877,8/8/2022,8/18/2022,3f1cdc02-cefc-7d35-e532-d1db16745688,3f1cdc02-cefc-7d35-2030-4879639f8afc,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2879,9/5/2022,9/11/2023,3f1cdc02-cefc-7d35-e532-d1db16745688,3f1cdc02-cefc-7d35-35d5-e57cd806c5f9,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+2880,9/5/2022,9/16/2024,3f1cdc02-cefc-7d35-e532-d1db16745688,3f1cdc02-cefc-7d35-35d5-e57cd806c5f9,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2893,6/5/2001,12/20/2005,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-297f-372ee0492d7c,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2894,6/5/2001,12/16/2003,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-297f-372ee0492d7c,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2896,12/16/2003,12/11/2012,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-81ea-120a0ac45314,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2902,12/25/2007,12/11/2012,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-aff8-0e9753e56029,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2905,12/25/2007,1/8/2008,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-aff8-0e9753e56029,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2907,12/29/2009,1/12/2010,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-cd24-9677962282af,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2912,12/3/2012,12/20/2012,7c87af7a-02a0-d387-f6cd-9222e0559b77,7c87af7a-02a0-d387-79b7-d695eebc9b11,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+2921,5/2/2021,5/19/2024,13cca394-008d-dcfa-eac3-fc130583f321,13cca394-008d-dcfa-3005-994d0c52478a,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2922,5/8/2022,5/15/2022,13cca394-008d-dcfa-eac3-fc130583f321,13cca394-008d-dcfa-1f28-152426a585ef,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2927,3/8/2026,3/25/2026,13cca394-008d-dcfa-eac3-fc130583f321,13cca394-008d-dcfa-31bf-dc4be174443a,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2936,11/4/2007,11/21/2010,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-6d3e-cc467f62455c,SNOMED-CT,80583007.0,Severe anxiety (panic) (finding),Stop date is before start date
+2939,11/9/2008,11/27/2011,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-c5fd-b2a2b43dafa8,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2944,6/4/2011,6/13/2011,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-c146-81971fa3a1a8,SNOMED-CT,10509002.0,Acute bronchitis (disorder),Stop date is before start date
+2952,12/2/2012,12/14/2014,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-d881-6e59d59d552c,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+2953,12/2/2012,12/16/2012,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-d881-6e59d59d552c,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2954,11/3/2013,11/12/2013,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-79f5-0b60d91bf64b,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2955,12/8/2013,1/12/2020,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-a700-1fae1e33aefa,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2956,12/8/2013,1/6/2019,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-a700-1fae1e33aefa,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2958,9/20/2015,10/20/2015,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-7723-b3d71008a0d8,SNOMED-CT,32911000.0,Homeless (finding),Stop date is before start date
+2960,12/20/2015,1/12/2020,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-c987-4611eba8aa0e,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+2961,12/20/2015,1/3/2016,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-c987-4611eba8aa0e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2969,1/6/2019,1/20/2019,2f3c8454-b3b8-bab6-0b8a-7c2da8723a62,2f3c8454-b3b8-bab6-9d01-266fec3141ec,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2973,12/17/2013,1/9/2018,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-00d2-7093bf9537d0,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+2974,12/17/2013,1/15/2019,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-00d2-7093bf9537d0,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+2975,12/23/2014,1/26/2021,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-baf9-dc702dd82d07,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+2976,1/3/2017,1/17/2017,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-8a51-35af6952434e,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2983,4/7/2021,4/27/2021,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-aa79-ed1f7e6d4c28,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+2989,6/7/2022,6/21/2022,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-e318-ce75e3c504a6,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+2990,2/7/2023,2/18/2025,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-69ed-f56f63133b2c,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+2991,9/22/2023,10/10/2023,3a58586c-0394-ac00-30cd-00ca8708ca39,3a58586c-0394-ac00-bb3b-7eea86596360,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3009,2/17/2022,11/17/2022,574b44d2-2cda-01bd-6c1e-c5f80869b83e,574b44d2-2cda-01bd-b8a0-4b29313068fd,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3031,4/4/2022,1/20/2025,49dfe873-b7aa-0c75-5a43-4bcc125bc3e9,49dfe873-b7aa-0c75-f7dd-6ac441b3fabf,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3034,4/4/2022,4/19/2022,49dfe873-b7aa-0c75-5a43-4bcc125bc3e9,49dfe873-b7aa-0c75-f7dd-6ac441b3fabf,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3047,12/25/2016,1/6/2019,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-2c87-cb0efb51aaef,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3049,12/25/2016,1/8/2017,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-2c87-cb0efb51aaef,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3052,12/31/2017,1/12/2020,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-cf8d-81ee8e376421,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3056,10/14/2018,1/12/2020,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-ccff-5f40920b89fc,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+3058,11/4/2018,11/24/2018,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-1407-daa48722349a,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3059,1/6/2019,1/20/2019,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-e14f-e80c424aefdc,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3074,2/9/2025,2/15/2026,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-b80c-fab1a4fd92da,SNOMED-CT,741062008.0,Not in labor force (finding),Stop date is before start date
+3075,2/9/2025,2/23/2025,88deb12c-4d82-d1bc-6298-7cee4e3c3d0d,88deb12c-4d82-d1bc-b80c-fab1a4fd92da,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3082,10/7/2012,10/30/2016,2d2b5b8c-4a13-4ca9-c867-64c8dbed0471,2d2b5b8c-4a13-4ca9-6b47-257132f944dd,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3091,4/2/2017,11/5/2017,2d2b5b8c-4a13-4ca9-c867-64c8dbed0471,2d2b5b8c-4a13-4ca9-76cf-5cd63123e128,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+3097,9/20/2020,10/1/2020,2d2b5b8c-4a13-4ca9-c867-64c8dbed0471,2d2b5b8c-4a13-4ca9-6b45-7727ff29ef41,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3100,3/31/2024,11/3/2024,2d2b5b8c-4a13-4ca9-c867-64c8dbed0471,2d2b5b8c-4a13-4ca9-8aba-de681bb029fd,SNOMED-CT,72892002.0,Normal pregnancy (finding),Stop date is before start date
+3112,9/27/2003,10/2/2004,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-ef33-072d95aff9d4,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3113,9/27/2003,11/23/2013,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-ef33-072d95aff9d4,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+3114,9/27/2003,10/8/2005,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-ef33-072d95aff9d4,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+3118,10/2/2004,10/16/2004,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-b59d-4d2540bb3a9d,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3120,10/8/2005,10/14/2006,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-e2ed-7da35366391d,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3135,11/6/2010,11/17/2012,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-32d5-e8d66da877b5,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3136,8/8/2012,8/24/2012,412924da-140d-9d54-d207-5716147fffa1,412924da-140d-9d54-decb-aaefa04cc9b7,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3148,8/3/2017,8/15/2024,e5863ab8-893d-3e6b-3da4-b903413869e2,e5863ab8-893d-3e6b-39e7-ab2736cef333,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3150,8/3/2017,8/15/2024,e5863ab8-893d-3e6b-3da4-b903413869e2,e5863ab8-893d-3e6b-39e7-ab2736cef333,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+3152,8/3/2017,8/17/2017,e5863ab8-893d-3e6b-3da4-b903413869e2,e5863ab8-893d-3e6b-39e7-ab2736cef333,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3161,6/25/2016,12/22/2018,a67f6014-54d1-b630-8d51-954d2d26bd42,a67f6014-54d1-b630-bfa1-89f7d0eb8cb1,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3173,10/3/2021,10/19/2021,a67f6014-54d1-b630-8d51-954d2d26bd42,a67f6014-54d1-b630-93ec-a39d93964285,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3174,1/8/2022,1/14/2023,a67f6014-54d1-b630-8d51-954d2d26bd42,a67f6014-54d1-b630-252b-1039c3aea4c6,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3182,12/9/2019,12/25/2019,1d1330ae-1be0-09c5-040e-dc59176bf0d5,1d1330ae-1be0-09c5-79a3-ee6226e00aa3,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3183,9/23/2021,10/8/2021,1d1330ae-1be0-09c5-040e-dc59176bf0d5,1d1330ae-1be0-09c5-6104-31d2c330426e,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3185,5/9/2022,5/24/2022,1d1330ae-1be0-09c5-040e-dc59176bf0d5,1d1330ae-1be0-09c5-8794-9db28d129dcd,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3191,7/7/2025,7/13/2026,1d1330ae-1be0-09c5-040e-dc59176bf0d5,1d1330ae-1be0-09c5-33a2-ad51c60de27d,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3193,7/7/2025,7/13/2026,1d1330ae-1be0-09c5-040e-dc59176bf0d5,1d1330ae-1be0-09c5-33a2-ad51c60de27d,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3211,12/23/2015,1/3/2018,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-d4fe-397525ee89e0,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+3214,12/28/2016,1/3/2018,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-f0a1-e02deb004456,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3216,12/28/2016,1/9/2019,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-f0a1-e02deb004456,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+3217,12/28/2016,1/3/2018,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-f0a1-e02deb004456,SNOMED-CT,424393004.0,Reports of violence in the environment (finding),Stop date is before start date
+3219,1/3/2018,1/17/2018,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-3ef4-9981cb56b2e6,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3221,9/6/2018,9/28/2018,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-5123-07424d82d195,SNOMED-CT,312608009.0,Laceration - injury (disorder),Stop date is before start date
+3222,9/6/2018,9/28/2018,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-5123-07424d82d195,SNOMED-CT,283385000.0,Laceration of thigh (disorder),Stop date is before start date
+3223,1/9/2019,1/20/2021,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-669b-4e6d5643bf53,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3225,1/9/2019,1/20/2021,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-669b-4e6d5643bf53,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3231,9/29/2021,1/26/2022,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-ffea-66cfdc4704b9,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3232,9/29/2021,8/24/2022,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-ffea-66cfdc4704b9,SNOMED-CT,73438004.0,Unemployed (finding),Stop date is before start date
+3234,9/29/2021,10/20/2021,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-ffea-66cfdc4704b9,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3235,10/6/2021,10/30/2021,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-dc75-735f937611f0,SNOMED-CT,312608009.0,Laceration - injury (disorder),Stop date is before start date
+3236,10/6/2021,10/30/2021,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-dc75-735f937611f0,SNOMED-CT,283385000.0,Laceration of thigh (disorder),Stop date is before start date
+3241,8/24/2022,2/1/2023,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-08f4-68a0024bc8aa,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3242,8/24/2022,2/12/2025,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-08f4-68a0024bc8aa,SNOMED-CT,80583007.0,Severe anxiety (panic) (finding),Stop date is before start date
+3246,2/8/2023,11/5/2025,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-2b7e-b0731ae7b037,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3249,3/8/2023,2/7/2024,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-be89-3a04b37e99b4,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3250,3/8/2023,11/5/2025,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-be89-3a04b37e99b4,SNOMED-CT,73595000.0,Stress (finding),Stop date is before start date
+3251,2/7/2024,2/12/2025,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-9a37-a18f96b422db,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+3252,2/12/2025,1/7/2026,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-452d-cdbc595b3a22,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3257,12/3/2025,12/24/2025,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-6d74-b38e90d5d633,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3258,12/17/2025,1/7/2026,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-cec4-4e74553484a5,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3263,1/7/2026,1/21/2026,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-4905-1a657779b714,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3265,2/4/2026,2/18/2026,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-8d3d-d6aa36884f70,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3281,8/11/2019,11/10/2019,34dd4106-4635-e94b-c4b1-640b0ea3c80d,34dd4106-4635-e94b-1cf2-67ba85d0156c,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3284,6/10/2026,10/14/2026,abbe7ce8-820b-cb76-8d0c-02fe9d9decb0,abbe7ce8-820b-cb76-b8e8-0b7c48943cc9,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+3289,8/9/2020,2/7/2021,34dd4106-4635-e94b-c4b1-640b0ea3c80d,34dd4106-4635-e94b-9870-3f1dae7bdcb7,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3290,8/16/2020,2/7/2021,34dd4106-4635-e94b-c4b1-640b0ea3c80d,34dd4106-4635-e94b-ebd9-95d332b644c2,SNOMED-CT,65363002.0,Otitis media (disorder),Stop date is before start date
+3292,8/8/2021,2/6/2022,34dd4106-4635-e94b-c4b1-640b0ea3c80d,34dd4106-4635-e94b-9e25-1f62df223e70,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3296,6/5/2022,6/16/2022,34dd4106-4635-e94b-c4b1-640b0ea3c80d,34dd4106-4635-e94b-f709-16f5230b8af5,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+3325,12/26/2015,1/7/2017,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-18d4-e61e0993ef94,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3331,6/1/2019,1/25/2020,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-4880-fe166e6393c1,SNOMED-CT,160904001.0,Part-time employment (finding),Stop date is before start date
+3332,6/8/2019,6/22/2019,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-3a2c-2ba434d36bf9,SNOMED-CT,444814009.0,Viral sinusitis (disorder),Stop date is before start date
+3344,2/5/2022,2/11/2023,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-4744-e842f6dbd2e3,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3345,2/5/2022,2/19/2022,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-4744-e842f6dbd2e3,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3352,8/27/2024,12/7/2024,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-3b86-2e350d771334,SNOMED-CT,125601008.0,Injury of knee (disorder),Stop date is before start date
+3353,8/27/2024,12/7/2024,c0f85a14-440d-79b8-1a24-9792cf230f87,c0f85a14-440d-79b8-3b86-2e350d771334,SNOMED-CT,444448004.0,Injury of medial collateral ligament of knee (disorder),Stop date is before start date
+3368,9/25/2019,10/12/2019,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-833b-50aa05ecc6f2,SNOMED-CT,312608009.0,Laceration - injury (disorder),Stop date is before start date
+3369,9/25/2019,10/12/2019,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-833b-50aa05ecc6f2,SNOMED-CT,370247008.0,Facial laceration (disorder),Stop date is before start date
+3373,5/3/2022,5/12/2022,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-e707-108b7afaabf2,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+3374,6/3/2022,6/26/2026,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-794d-f595c3aa34fc,SNOMED-CT,160903007.0,Full-time employment (finding),Stop date is before start date
+3376,6/3/2022,6/18/2022,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-794d-f595c3aa34fc,SNOMED-CT,66383009.0,Gingivitis (disorder),Stop date is before start date
+3377,6/9/2023,6/20/2025,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-ab2e-963562b295fe,SNOMED-CT,314529007.0,Medication review due (situation),Stop date is before start date
+3378,6/9/2023,6/14/2024,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-ab2e-963562b295fe,SNOMED-CT,423315002.0,Limited social contact (finding),Stop date is before start date
+3381,8/3/2024,8/14/2024,93547944-a253-d0bb-fffe-68a8adee95da,93547944-a253-d0bb-9fe9-877e4c44f164,SNOMED-CT,195662009.0,Acute viral pharyngitis (disorder),Stop date is before start date
+3387,5/9/2002,,,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Missing PATIENT Column
+3388,5/9/2002,,INVALID-PATIENT-002,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Invalid Patient ID
+3389,5/9/2002,,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,,SNOMED-CT,160968000.0,Risk activity involvement (finding),Missing ENCOUNTER Column
+3391,,,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,,Risk activity involvement (finding),Missing START Column; Missing CODE Column
+3393,6/15/2025,6/14/2025,166840bf-b4f9-b8f0-d1ab-010f8cba3f31,166840bf-b4f9-b8f0-7a10-c981e862dacf,SNOMED-CT,160968000.0,Risk activity involvement (finding),Stop date is before start date

@@ -10,7 +10,7 @@ def validate_missing_data(df: pd.DataFrame, req_columns: list):
     try:
         invalid_records = df[df[req_columns].isnull().any(axis=1)]
         invalid_records["rejection_reason"] = invalid_records.apply(
-            lambda row: ", ".join(
+            lambda row: "; ".join(
                 [f"Missing {col} Column" for col in req_columns if pd.isnull(row[col])]
             ),
             axis=1

@@ -1,3 +1,7 @@
+import pytest
+
+
+
 #rejected records
 # Test                                   Expected result
 # One invalid record	                Appears in rejection report
@@ -7,9 +11,5 @@
 # Two records have duplicate IDs	    Both remain distinguishable
 # Missing record ID	                    Record still appears in report
 
-#summary
-# No rejected records	                     0% failure
-# All records rejected	                        100% failure
-# 3 of 100 rejected	                            3% failure
-# Multiple validation failures on one record	Record counted once
-# Empty DataFrame	                            0 records, 0% failure
+def test_multiple_reason_appear_in_rejection_reason(rejected_patients_df):
+    rejection_reason = rejected_patients_df.at[1, "rejection_reason"]

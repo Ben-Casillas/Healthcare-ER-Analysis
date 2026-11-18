@@ -49,3 +49,9 @@ def valid_conditions_df():
     return pd.read_csv(
         "./Data/raw/conditions.csv"
     )
+
+@pytest.fixture
+def rejected_patients_df():
+    return pd.read_csv(
+            "./Data/rejection/patients.csv"
+        )
