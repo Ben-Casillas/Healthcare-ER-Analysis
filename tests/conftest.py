@@ -53,5 +53,23 @@ def valid_conditions_df():
 @pytest.fixture
 def rejected_patients_df():
     return pd.read_csv(
-            "./Data/rejection/patients.csv"
-        )
+        "./Data/rejected/patient_rejections.csv"
+    )
+
+@pytest.fixture
+def rejected_encounters_df():
+    return pd.read_csv(
+        "./Data/rejected/encounter_rejections.csv"
+    )
+
+@pytest.fixture
+def rejected_organizations_df():
+    return pd.read_csv(
+        "./Data/rejected/organization_rejections.csv"
+    )
+
+@pytest.fixture
+def rejected_conditions_df():
+    return pd.read_csv(
+        "./Data/rejected/condition_rejections.csv"
+    )

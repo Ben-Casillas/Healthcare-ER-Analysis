@@ -20,10 +20,9 @@ def validate_missing_data(df: pd.DataFrame, req_columns: list):
         return ("Invalid column provided. No such column exists.", err.args)
     
 
-test = validate_missing_data(patients_df, ['TEST', 'ID'])
-
 def validate_duplicate_ids(df: pd.DataFrame, id_column: str):
     invalid_records = df[df.duplicated(subset=[id_column], keep=False)]
+    #set new column "rejection_reason" to "Duplicate ID"
     invalid_records["rejection_reason"] = "Duplicate ID"
     return invalid_records
 
