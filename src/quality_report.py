@@ -31,6 +31,11 @@ condition_validation_results = {
     "Condition References Invalid Patient or Organization": validate.encounter_ref_invalid_patient_or_org(conditions_df, patients_df)
 }
 
+organization_validation_results = {
+    "Missing Required Data": validate.validate_missing_data(organizations_df, ['Id', 'NAME', 'ADDRESS', 'CITY', 'STATE', 'ZIP', 'PHONE']),
+    "Duplicate IDs": validate.validate_duplicate_ids(organizations_df, 'Id')
+}
+
 
 def create_rejection_report(df, validation_results):
     rejection_list = []
@@ -45,7 +50,7 @@ def create_rejection_report(df, validation_results):
         return pd.DataFrame(
             columns=list(df.columns) + ["rejection_reason"]
         )
-    #if not empty, concat list into a DF 
+    #if not empty, concat list into a DF
     rejection_report = pd.concat(
         rejection_list,
         ignore_index=True
@@ -109,6 +114,9 @@ encounter_rejection_report.to_csv("data/rejected/encounter_rejections.csv",index
 condition_rejection_report = create_rejection_report(conditions_df, condition_validation_results)
 condition_rejection_report.to_csv("data/rejected/condition_rejections.csv", index=False)
 
+org_rejection_report = create_rejection_report(organizations_df, organization_validation_results)
+org_rejection_report.to_csv("data/rejected/organization_rejections.csv", index=False)
+
 patients_summary = create_validation_summary(patients_df, patient_validation_results)
 patients_summary.to_csv("data/summary/patients_summary.csv", index=False)
 
@@ -117,6 +125,9 @@ encounter_summary.to_csv("data/summary/encounter_summary.csv", index=False)
 
 condition_summary = create_validation_summary(patients_df, patient_validation_results)
 condition_summary.to_csv("data/summary/condition_summary.csv", index=False)
+
+org_summary = create_validation_summary(organizations_df, organization_validation_results)
+org_summary.to_csv("data/summary/organization_summary.csv", index=False)
 
 breakdown = create_failure_breakdown(encounter_validation_results)
 breakdown.to_csv("data/summary/breakdown.csv", index=False)

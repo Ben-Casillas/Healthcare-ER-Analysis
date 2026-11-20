@@ -7,7 +7,7 @@ Sprint 2 — Data Validation & Quality Checks
 - [x] Create a rejection report that records each invalid record and its rejection reason.
 - [x] Create a summary showing total records checked, valid records, rejected records, and failure percentages.
 - [x] Create deliberately corrupted sample records to test your validation functions.
-- [ ] Use pytest to create automated tests for your validation functions.
+- [x] Use pytest to create automated tests for your validation functions.
 
 Sprint 3 — Data Cleaning & Transformation
 - [ ] Create a Python file named transform.py.

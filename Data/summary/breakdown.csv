@@ -1,5 +1,5 @@
 validation_rule,failed_records
-Missing Required Data,2
-Duplicate IDs,9
-Invalid Encounter Dates,2
-Encounter References Invalid Patient or Organization,2
+Missing Required Data,4
+Duplicate IDs,12
+Invalid Encounter Dates,0
+Encounter References Invalid Patient or Organization,3
