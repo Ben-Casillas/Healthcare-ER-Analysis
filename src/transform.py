@@ -1,0 +1,2 @@
+# write function that standardize all columns
+

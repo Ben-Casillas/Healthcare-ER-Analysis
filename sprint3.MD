@@ -1,0 +1,18 @@
+- [ ] Create a separate messy dataset without modifying the original raw files.
+- [ ] Document the inconsistencies introduced into each dataset.
+- [ ] Create transform.py.
+- [ ] Standardize patient birthdates and encounter timestamps.
+- [ ] Standardize gender representations using documented mappings.
+- [ ] Standardize encounter classes using documented mappings.
+- [ ] Standardize SSN formatting and validate digit lengths.
+- [ ] Standardize phone number formatting and validate supported formats.
+- [ ] Standardize names, facility names, and text fields where appropriate.
+- [ ] Standardize race and ethnicity without incorrectly combining categories.
+- [ ] Convert numeric columns to appropriate data types and validate their values.
+- [ ] Normalize ZIP codes and geographic fields.
+- [ ] Handle missing values while preserving unknown, missing, and not-applicable distinctions.
+- [ ] Identify and resolve exact duplicates using documented rules.
+- [ ] Flag conflicting duplicates instead of automatically deleting them.
+- [ ] Create cleaned output files in data/processed/.
+- [ ] Compare original, messy, and processed datasets to verify transformations.
+- [ ] Write automated tests for your transformation functions.
