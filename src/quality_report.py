@@ -126,6 +126,9 @@ encounter_summary.to_csv("data/summary/encounter_summary.csv", index=False)
 condition_summary = create_validation_summary(patients_df, patient_validation_results)
 condition_summary.to_csv("data/summary/condition_summary.csv", index=False)
 
+org_summary = create_validation_summary(organizations_df, organization_validation_results)
+org_summary.to_csv("data/summary/organization_summary.csv", index=False)
+
 breakdown = create_failure_breakdown(encounter_validation_results)
 breakdown.to_csv("data/summary/breakdown.csv", index=False)
 

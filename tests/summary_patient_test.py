@@ -5,4 +5,3 @@
 # Multiple validation failures on one record	Record counted once
 # Empty DataFrame	                            0 records, 0% failure
 
-def 

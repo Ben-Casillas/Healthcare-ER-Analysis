@@ -1,6 +1,3 @@
-import pytest
-
-
 def test_encounter_rejection_has_expected_amount(rejected_encounters_df):
     assert(len(rejected_encounters_df) == 12)
 

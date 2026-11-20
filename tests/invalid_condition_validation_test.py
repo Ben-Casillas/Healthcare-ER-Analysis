@@ -1,6 +1,7 @@
 import pytest
 import validate
 
+# TODO: test if blank patient/encounter in condition is marked as relationship to blank id patient/encounter
 @pytest.mark.parametrize(
     "column, expected_count",
     [

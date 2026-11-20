@@ -1,6 +1,7 @@
 import pytest
 import validate
 
+# TODO: test if blank foreign keys are marked as relationships if origin table has blank id, or if they are marked correctly
 @pytest.mark.parametrize(
     "column, expected_count",
     [
@@ -34,12 +35,7 @@ def test_len_duplicate_id_encounter(invalid_encounters_df):
 
 def test_len_bad_stop_date_encounter(invalid_encounters_df):
     result = validate.validate_encounter_dates(invalid_encounters_df, 'START', 'STOP')
-    assert(len(result) == 3)
+    assert(len(result) == 2)
 
 def test_invalid_patient_id_encounter(invalid_encounters_df, invalid_patients_df, invalid_organizations_df):
     assert(len(validate.encounter_ref_invalid_patient_or_org(invalid_encounters_df, invalid_patients_df, invalid_organizations_df)) == 3)
-
-#test if blank patient in encounter is marked as relationship to blank id patient
-#test if blank provider in encounter is marked as relationship to blank id provider
-#test if blank payer in encounter is marked as relationship to blank id payer
-#test if blank org in encounter is marked as relationship to blank id org

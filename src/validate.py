@@ -1,9 +1,9 @@
 import pandas as pd
+from datetime import datetime
 # .isnull().any(axis=1)]
 #is null checks every cell for missing data
 # any(axis=1) returns the row if at least 1 of its cells is null, change the 1 for another value
 
-patients_df = pd.read_csv('Data/invalid/patients.csv')
 
 def validate_missing_data(df: pd.DataFrame, req_columns: list):
     invalid_records = None
@@ -18,7 +18,6 @@ def validate_missing_data(df: pd.DataFrame, req_columns: list):
         return invalid_records
     except KeyError as err:
         return ("Invalid column provided. No such column exists.", err.args)
-    
 
 def validate_duplicate_ids(df: pd.DataFrame, id_column: str):
     invalid_records = df[df.duplicated(subset=[id_column], keep=False)]
@@ -26,10 +25,23 @@ def validate_duplicate_ids(df: pd.DataFrame, id_column: str):
     invalid_records["rejection_reason"] = "Duplicate ID"
     return invalid_records
 
+import pandas as pd
+
 def validate_encounter_dates(df: pd.DataFrame, start_column: str, end_column: str):
-    invalid_records = df[(df[end_column].notna()) & (df[start_column] > df[end_column])]
+    # Clean whitespace before parsing
+    s_clean = df[start_column].astype(str).str.strip()
+    e_clean = df[end_column].astype(str).str.strip()
+    
+    # Remove strict format="%m/%d/%Y" if formats vary or include timestamps
+    start_dates = pd.to_datetime(s_clean, errors="coerce")
+    stop_dates = pd.to_datetime(e_clean, errors="coerce")
+    
+    # Use .copy() to safely add the rejection_reason column later
+    invalid_records = df[stop_dates.notna() & (start_dates > stop_dates)].copy()
+    
     invalid_records["rejection_reason"] = "Stop date is before start date"
     return invalid_records
+
 
 def encounter_ref_invalid_patient_or_org(encounter_df: pd.DataFrame, patient_df: pd.DataFrame, organizations_df: pd.DataFrame = None):
     if organizations_df is None:

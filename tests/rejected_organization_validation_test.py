@@ -1,6 +1,3 @@
-import pytest
-
-
 def test_encounter_rejection_has_expected_amount(rejected_organizations_df):
     assert(len(rejected_organizations_df) == 8)
 

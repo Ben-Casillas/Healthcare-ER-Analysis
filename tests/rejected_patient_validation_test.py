@@ -1,7 +1,4 @@
-import pytest
-
-# Test                                   Expected result
-# No invalid records	                 Empty rejection report
+# TODO: test for an empty rejection report
 
 def test_patient_rejection_has_expected_amount(rejected_patients_df):
     assert(len(rejected_patients_df) == 9)
@@ -20,6 +17,3 @@ def test_all_duplicate_ids_are_distinguishable(rejected_patients_df):
     duplicate_id_count = len(duplicate_ids)
     unique_duplicate_source_row = duplicate_ids["_source_row"].nunique()
     assert(unique_duplicate_source_row == duplicate_id_count)
-
-# def test_missing_patient_id_appears_in_rejection(rejected_patients_df):
-    

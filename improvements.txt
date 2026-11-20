@@ -1,14 +1,21 @@
+TESTS
+make summary tests
+
+make tests that are expected to raise errors other than AssertionError
+
 ensure that when validating foreign IDs, that blank is seen is an invalid id, and therefore
 does not return as a relationship
 
+VALIDATION
 for all validation methods, wrap logic in try catch and return custom exceptions
 in the event the DF supplied is not valid
-
-do i need to count repeated blank/empty/null/nan Ids in patients as being the duplicate ids
-
-introduce different formats for same data, dates, gender, ssn, phone
 
 adjust the validate encounter dates so that when its giving the reason, it can specify if the end date is before start
 date or if the values are not dates
 
-make tests that are expected to raise errors other than AssertionError
+QUESTIONS
+do i need to count repeated blank/empty/null/nan Ids in patients as being the duplicate ids
+
+TRANSFORMATION
+introduce different formats for same data, dates, gender, ssn, phone
+
