@@ -1,4 +1,3 @@
-
 import pandas as pd
 import random
 import re
@@ -7,11 +6,10 @@ from pathlib import Path
 # --------------------------------------------------
 # CONFIGURATION
 # --------------------------------------------------
-
 random.seed(42)
 
-RAW_DIR = Path("../Data/raw")
-MESSY_DIR = Path("../Data/messy")
+RAW_DIR = Path("Data/raw")
+MESSY_DIR = Path("Data/messy")
 
 MESSY_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -216,7 +214,6 @@ def mess_up_patients(df):
 # --------------------------------------------------
 # ENCOUNTER DATA TRANSFORMATIONS
 # --------------------------------------------------
-
 def mess_up_encounters(df):
 
     # Date and timestamp variations
@@ -262,11 +259,9 @@ def mess_up_encounters(df):
 
     return df
 
-
 # --------------------------------------------------
 # ORGANIZATION DATA TRANSFORMATIONS
 # --------------------------------------------------
-
 def mess_up_organizations(df):
 
     modify_column(df, "NAME", messy_text)
@@ -284,11 +279,9 @@ def mess_up_organizations(df):
 
     return df
 
-
 # --------------------------------------------------
 # CONDITION DATA TRANSFORMATIONS
 # --------------------------------------------------
-
 def mess_up_conditions(df):
 
     for column in ["START", "STOP"]:
@@ -305,11 +298,9 @@ def mess_up_conditions(df):
 
     return df
 
-
 # --------------------------------------------------
 # INTRODUCE INTENTIONALLY INVALID DATA
 # --------------------------------------------------
-
 def introduce_invalid_values(df, column, values):
 
     if column not in df.columns:
@@ -326,7 +317,6 @@ def introduce_invalid_values(df, column, values):
 
     for index in selected:
         df.at[index, column] = random.choice(values)
-
 
 def introduce_invalid_records(patients, encounters, organizations, conditions):
 
@@ -402,11 +392,9 @@ def introduce_invalid_records(patients, encounters, organizations, conditions):
 
     return patients, encounters, organizations, conditions
 
-
 # --------------------------------------------------
 # INTRODUCE DUPLICATE RECORDS
 # --------------------------------------------------
-
 def introduce_duplicates(df, rate=0.01):
 
     if df.empty:
@@ -424,13 +412,10 @@ def introduce_duplicates(df, rate=0.01):
         ignore_index=True
     )
 
-
 # --------------------------------------------------
 # MAIN EXECUTION
 # --------------------------------------------------
-
 def main():
-
     files = {
         "patients": "patients.csv",
         "encounters": "encounters.csv",
@@ -442,14 +427,11 @@ def main():
 
     # Read source files
     for name, filename in files.items():
-
         path = RAW_DIR / filename
-
         if not path.exists():
             raise FileNotFoundError(
                 f"Missing source file: {path}"
             )
-
         datasets[name] = pd.read_csv(path, dtype=str)
 
     patients = datasets["patients"]
@@ -495,19 +477,19 @@ def main():
     print("\nMESSY DATA GENERATION SUMMARY")
     print("-" * 45)
 
-    for name, df in final_datasets.items():
+    # for name, df in final_datasets.items():
 
-        output_path = MESSY_DIR / f"{name}.csv"
+    #     output_path = MESSY_DIR / f"{name}_messy.csv"
 
-        df.to_csv(output_path, index=False)
+    #     df.to_csv(output_path, index=False)
 
-        print(
-            f"{name}: "
-            f"{original_counts[name]:,} original records -> "
-            f"{len(df):,} messy records"
-        )
+    #     print(
+    #         f"{name}: "
+    #         f"{original_counts[name]:,} original records -> "
+    #         f"{len(df):,} messy records"
+    #     )
 
-        print(f"Saved to: {output_path}")
+    #     print(f"Saved to: {output_path}")
 
     print("\nMessy dataset generation complete!")
 
