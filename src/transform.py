@@ -1,8 +1,8 @@
 import pandas as pd
+import re
 
 # write function that standardize all columns
 
-# str.strip() str.lower()/upper() .map() .replace() .fillna() .isin()
 #value_counts() .unique() .isin()
 # str.fullmatch() str.zfill()
 # str.extract() #str.startswith()
@@ -39,13 +39,43 @@ def standardize_gender(df: pd.DataFrame, column: str):
     df[column] = cleaned.map(gender_mapping).fillna("Unknown")
     return df
 
-
-
-#method to standardize phone
-
 #method to standardize ssn
+def standardize_ssn(df: pd.DataFrame, column: str):
+    if column not in df.columns:
+        return
+    for index in df.index[df[column].notna()].tolist():
+        value = df.at[index, column]
+        digits = re.sub(r"\D", "", str(value))
+        formatted_digits = f"{digits[:3]}-{digits[3:5]}-{digits[5:]}"
+        df.at[index, column] = formatted_digits
+    return df
 
-#method to standardize race/ethnicity
+#method to standardize race
+def standardize_race(df: pd.DataFrame, column: str):
+    if column not in df.columns:
+        return
+    race_mapping = {
+        "white": "white",
+        "caucasian": "white",
+        "black": "black",
+        "african american": "black",
+        "asian": "asian",
+        "native": "native",
+        "hawaiian": "hawaiian"
+    }
+    cleaned = df[column].str.strip().str.casefold()
+    df[column] = cleaned.map(race_mapping).fillna("Unknown")
+    return df    
+
+#method to standardize phone (Org)
+def standardize_phone(df: pd.DataFrame, column: str):
+    if column not in df.columns:
+        return
+    for index in df.index[df[column].notna()].tolist():
+        value = df.at[index, column]
+        digits = re.sub(r"\D", "", str(value))
+
+#method to standardize text
 
 #method to standardize encounter class
 
